@@ -1,0 +1,18 @@
+{
+  "how-to-deposit-skins-via-peerpay": {
+    "title": "How to deposit skins via WaxPeer Pay",
+    "content": {
+      "p1": "When you first get to the site, you’ll most likely have this screen and will not be able to sell:",
+      "p2": "To sell your skin, firstly, you should install and set our extension (if the status says ‘make sure you are logged into Steam’, this means you should log in to steamcommunity.com and steampowered.com on your browser).",
+      "p3": "Once you set everything and are ready to sell, your page will look like this:",
+      "p4": "Next, you should set your Steam API and Trade link in the ‘Settings’ section and save. Note that API key can not be used to create trades and you should ALWAYS keep your Steam API set on our site up-to-date. You can as well connect your Discord and/or Telegram to also get notified there when someone buys your item.",
+      "p5": "Then, to make your items show up, you should refresh your inventory. Your skins that are tradeable and eligible will be shown then.",
+      "p6": "Once you click on the item, you can set your own price.",
+      "p7": "You can set your own price, but if you want, you can also choose the instant method. The instant method will give you a lower price that matches the highest buy order, therefore selling your item instantly. Note that if the owner of that buy order is not online, it will not activate.",
+      "p8": "From this point, you will wait for a buyer. This is not a direct deposit to the site, this is more of a sale for your skin(s), but the money you get is deposited to the site. Once someone buys your skin(s), you’ll be notified on-site, and if you have connected, on Discord & Telegram.",
+      "p9": "Once your skin is bought, our extension (or application, depending on which one you are using - both works) will create the trade for you and you will only need to confirm it via Steam guard. Make sure there are no duplicated trades and you are confirming the correct trade.",
+      "p10": "In addition, this little symbol next to the merchant name means that the merchant (site) you’re making a deposit into is verified by us.",
+      "p11": "Once the item is delivered to the buyer successfully, you will receive your coins/money on the site you are making a deposit to within 5 minutes (short delays may occur in rare occasions). Good luck!"
+    }
+  }
+}

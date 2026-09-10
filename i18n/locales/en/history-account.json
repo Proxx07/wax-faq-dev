@@ -1,0 +1,9 @@
+{
+  "history-account": {
+    "title": "Is there a way to see history of my account?",
+    "content": {
+      "p1": "Yes, you can easily view the full history of your account activity in the Transactions section. It shows all operations related to your balance, sales, purchases, deposits, and withdrawals — everything in one place.",
+      "p2": "Inside the Transactions page, you’ll find several tabs: All transactions – here you can see your complete transaction history, including item purchases, sales, deposits, withdrawals, and refunds. Each entry displays detailed information about the operation, item, and amount. Sales – this tab lists all your successful item sales with the sale time, price, and profit. Refills – this section contains your deposit and withdrawal history, showing when and how much you’ve added or withdrawn from your balance. You can also use filters on the left side of the page to sort your history by game, type, price range, or date — making it easy to find any specific transaction."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "fees-withdraw": {
+    "title": "Withdrawal fees",
+    "content": {
+      "p1": "Withdraw fees can be different for different methods. Once one of the options is selected, you can see the fee of it."
+    }
+  }
+}

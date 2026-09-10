@@ -1,0 +1,9 @@
+{
+  "safety-wax": {
+    "title": "Is there a way to get scammed using WaxPeer?",
+    "content": {
+      "p1": "No, there is no way for you to get scammed via WaxPeer if your account is safe. But if you have 2 trades while selling your skin, one (sent by us) cancelled and one (sent by the scammer) sent, accepted and waiting for mobile confirmation, this means that your account information was most likely stolen by scammers. At the first sight, you may think these two trades were sent to the same account, but if you check their Steam community links, you will see that they are different accounts. This can be due to a phishing site you’ve logged in, even if it was years ago.",
+      "p2": "We do not accept any blame for such things since it is not our fault. In such cases, you should reset your Steam password, clear cookies on your browser and Deauthorize all devices from your Steam account. After that you will be safe to sell again."
+    }
+  }
+}

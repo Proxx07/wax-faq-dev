@@ -1,0 +1,38 @@
+@use "sass:list";
+@function mix-color-transparent($color: currentColor, $percent: 0.13) {
+  @return color-mix(in srgb, #{$color} #{$percent * 100%}, transparent);
+}
+
+@function mix-color-contrast($color: currentColor, $percent: 0.8) {
+  @return color-mix(in srgb, #{$color} #{$percent * 100%}, var(--surface));
+}
+
+@mixin transition($props, $timing: var(--fast-timing)) {
+  $value: ();
+  @each $prop in $props {
+    $value: list.append($value, $prop $timing, $separator: comma);
+  }
+  transition: $value;
+}
+
+
+/* ================= Media queries mixin ====================== */
+$small:     420px;
+$mobile:    600px;
+$tablet-s:  768px;
+$tablet:    1024px;
+$laptop-s:  1200px;
+$laptop:    1440px;
+$desktop:   1920px;
+
+@mixin media-max($bp) {
+  @media all and (max-width: #{$bp}) {
+    @content
+  }
+}
+
+@mixin media-min($bp) {
+  @media all and (min-width: #{($bp+1px)}) {
+    @content
+  }
+}

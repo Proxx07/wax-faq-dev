@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "How to Buy on WaxPeer: Step-by-Step Guide",
+    "content": {
+      "heading1": "1. Instant Purchase: Finding an Item and Price Details",
+      "p1": "Find the item you want on the marketplace (e.g., Butterfly Knife Doppler). When you hover over it, you will see its detailed information: the item name, Float Value (FN 0.02342), the suggested price (with the Steam icon, e.g., $2045.35), the seller’s current sale price ($12,046.34), and the discount percentage (e.g., -30%). To buy immediately, click the blue 'Buy now' button.",
+      "heading2": "2. Purchase Status: Processing the Trade",
+      "p2": "After an instant purchase, the 'Withdrawal status' window will appear. It confirms the item you bought (Butterfly Knife Doppler, $12,046.34) and shows the trade status. Initially, the system will show 'Processing the trade' while the item is being prepared for delivery.",
+      "heading3": "3. Adding to Cart vs. Buying Now",
+      "p3": "This image demonstrates two options for an item (M9 Bayonet Lore). You can either click the blue 'Buy now' button to purchase instantly, or click the cart icon next to it to add the item to your cart and continue browsing for multiple items.",
+      "heading4": "4. Purchasing Multiple Items from the Cart",
+      "p4": "To buy multiple selected items at once, click the cart icon in the top-right corner of the website. The cart dropdown will display all added items (e.g., Sport Gloves, Karambit, M9 Bayonet) and the total price (e.g., $8,215.76 for 3 items). Click the green 'Purchase' button to finalize the bulk order.",
+      "heading5": "5. Purchase Status: Ready to Accept Trade",
+      "p5": "As the system processes your purchases, the 'Withdrawal status' window updates. For items ready for delivery, you will see buttons to accept the trade offer: 'Accept in browser' or 'In Steam App.' Other statuses include 'Processing the trade' or 'Completed and placed on hold' for security checks.",
+      "heading6": "6. Initiating a Buy Order",
+      "p6": "To set a target price for an item lower than current offers, navigate to the item's detail page. Below the price graph, select the 'Purchase orders' tab under 'Similar orders' and click the blue '+ Create order' button.",
+      "heading7": "7. Setting the Buy Order Parameters",
+      "p7": "The 'New order' pop-up allows you to define your buy order. Enter the desired Price and the Max quantity of items you want to buy. A critical note is displayed: 'Buy orders do not filter skins by phase,' meaning you agree to receive the skin in any phase if it matches your price. Click 'Create purchase order' to submit.",
+      "heading8": "8. Accessing Your Buy Orders and Delivery History",
+      "p8": "To manage your orders and track purchases, click your profile icon in the top-right corner. The dropdown menu provides access to 'Buy orders' (for active orders), 'Delivery' (for tracking current purchases/withdrawals), and 'Transactions' (for history).",
+      "heading9": "9. Managing Active Buy Orders",
+      "p9": "The 'Buy orders' page lists all your active purchase orders. For each item (e.g., MP7 Short Oche, Galil AR Robin's Egg), you can see your set price, the fill status (e.g., '0/1 filled'), and options to 'Edit price' or delete the order.",
+      "heading10": "10. Reviewing Transaction History",
+      "p10": "The 'Transactions' page offers a comprehensive history. Under the 'Deals' tab, you can filter and review all your purchases and sales. This is where you confirm the final status of trades: 'Accepted,' automatically 'Refunded' (if a trade fails), or 'Canceled.'",
+      "heading11": "11. Tracking Live Deliveries",
+      "p11": "The dedicated 'Delivery' page (accessible via your profile menu) allows you to track all current withdrawals. Items ready for delivery will show the bot's name and the 'In browser' or 'In Steam App' acceptance buttons. Items on security hold or in transfer will display a remaining time limit (e.g., '2d 23h 30m')."
+    }
+  }
+}

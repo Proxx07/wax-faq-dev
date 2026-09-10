@@ -1,0 +1,111 @@
+:root {
+  --h: 0;
+  --s: 0%;
+  --l: 0%;
+
+  --l-0:  0;
+  --l-5:  5%;
+  --l-9:  9%;
+  --l-10: 10%;
+  --l-13: 13%;
+  --l-15: 15%;
+  --l-19: 19%;
+  --l-20: 20%;
+  --l-25: 25%;
+  --l-30: 30%;
+  --l-35: 35%;
+  --l-40: 40%;
+  --l-45: 45%;
+  --l-50: 50%;
+  --l-55: 55%;
+  --l-60: 60%;
+  --l-65: 65%;
+  --l-70: 70%;
+  --l-75: 75%;
+
+  --l-100: 100%;
+}
+
+html {
+  --surface:                    hsla(var(--h) var(--s) var(--l-10));
+  --surface-low-container:      hsla(var(--h) var(--s) var(--l-9));
+  --surface-container:          hsla(var(--h) var(--s) var(--l-13));
+  --surface-high-container:     hsla(var(--h) var(--s) var(--l-15));
+  --surface-highest-container:  hsla(var(--h) var(--s) var(--l-20));
+  --surface-accent-container:   hsla(var(--h) var(--s) var(--l-25));
+
+  --on-surface:           hsla(var(--h) var(--s) var(--l-100));
+  --on-surface-secondary: hsla(var(--h) var(--s) var(--l-75));
+  --on-surface-tertiary:  hsla(var(--h) var(--s) var(--l-65));
+
+  --outline: hsla(var(--h) var(--s) var(--l-19));
+  --outline-variant: hsla(var(--h) var(--s) var(--l-30));
+
+  --primary: rgba(41, 94, 213, 1);
+  --primary-variant: rgba(35, 81, 183, 1);
+
+  --secondary: rgba(54, 201, 115, 1);
+  --tertiary: rgba(83, 167, 237, 1);
+
+  --quality-fn: rgba(139, 207, 72, 1);
+  --quality-mv: rgba(72, 207, 126, 1);
+  --quality-ft: rgba(207, 153, 72, 1);
+  --quality-ww: rgba(192, 116, 81, 1);
+
+  --phase: var(--tertiary);
+  --ruby: var(--error);
+  --pearl: rgba(154, 130, 255, 1);
+  --sapphire: var(--tertiary);
+  --emerald: var(--secondary);
+
+  --attention: rgba(255, 175, 100, 1);
+  --error: rgba(255, 92, 92, 1);
+
+  --best-price: rgba(255, 189, 60, 1);
+  --best-price-container: rgba(55, 51, 36, 1);
+
+  --good-price: rgba(88, 226, 201, 1);
+  --good-price-container: rgba(39, 52, 50, 1);
+
+  --souvenir: #bf7c00;
+  --stattrak: #ceb220;
+}
+
+
+html.blue {
+  --h: 220;
+  --s: 15%;
+}
+
+html.grey {
+  --h: 210;
+  --s: 10%;
+}
+
+html.red {
+  --h: 15;
+  --s: 10%;
+}
+
+html.light {
+  --h: 210;
+  --s: 20%;
+
+  --surface:                    hsla(var(--h) var(--s) calc(100% - var(--l-10)));
+  --surface-container:          hsla(var(--h) var(--s) calc(100% - var(--l-13)));
+  --surface-low-container:      hsla(var(--h) var(--s) calc(100% - var(--l-9)));
+  --surface-high-container:     hsla(var(--h) var(--s) calc(100% - var(--l-15)));
+  --surface-highest-container:  hsla(var(--h) var(--s) calc(100% - var(--l-20)));
+  --surface-accent-container:   hsla(var(--h) var(--s) calc(100% - var(--l-25)));
+
+  --on-surface:           hsla(var(--h) var(--s) calc(100% - var(--l-100)));
+  --on-surface-secondary: hsla(var(--h) var(--s) calc(100% - var(--l-75)));
+  --on-surface-tertiary:  hsla(var(--h) var(--s) calc(100% - var(--l-65)));
+
+  --outline:         hsla(var(--h) var(--s) calc(100% - var(--l-19)));
+  --outline-variant: hsla(var(--h) var(--s) calc(100% - var(--l-30)));
+
+  --secondary: rgba(45, 186, 104, 1);
+  --attention: rgba(230, 126, 28, 1);
+  --error: rgba(234, 66, 66, 1);
+}

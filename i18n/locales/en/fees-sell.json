@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Sell fees",
+    "content": {
+      "p1": "Selling fee is 6%. To be more explanatory: A seller who sells an item for $100 gets $94 in their WaxPeer balance once the item is succesfully delivered."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "What happens if seller does not send the item to the buyer?",
+    "content": {
+      "p1": "It is simple, if the seller does not send the item to the buyer before the timer ends, their transaction gets cancelled. The trade sent by us will be cancelled automatically, buyer will be refunded and the listing will be removed (they can be relisted again). But the users who abuse the refunding system by trolling sellers and/or buyers by not accepting or declining trades constantly may face consequences."
+    }
+  }
+}

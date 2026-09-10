@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-test",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "lint": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "4.0.0",
+    "@nuxtjs/i18n": "^10.3.0",
+    "@pinia/nuxt": "0.11.3",
+    "@vueuse/components": "^14.3.0",
+    "@vueuse/core": "^14.3.0",
+    "@vueuse/nuxt": "^14.3.0",
+    "nuxt": "^4.4.5",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
+    "@nuxt/types": "^2.18.1",
+    "@types/node": "^26.1.1",
+    "eslint": "^9.12.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16",
+    "sass": "^1.99.0",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.4"
+  },
+  "allowScripts": {
+    "@parcel/watcher": true,
+    "esbuild": true,
+    "unrs-resolver": true
+  }
+}

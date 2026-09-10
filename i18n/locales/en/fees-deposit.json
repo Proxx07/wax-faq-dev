@@ -1,0 +1,8 @@
+{
+  "fees-deposit": {
+    "title": "Deposit fees",
+    "content": {
+      "p1": "Deposit fees can be different for different methods. Once one of the options is selected, you can see the fee of it."
+    }
+  }
+}

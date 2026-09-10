@@ -1,0 +1,56 @@
+{
+  "help_center": "Help center",
+  "back_to_market": "Back to marketplace",
+  "back_to_market_short": "Back to market",
+  "contact_support": "Contact support",
+
+  "search": "Search ...",
+  "search_block": {
+    "title": "How can we help?",
+    "description": "Guides, walkthroughs, and answers to the questions we hear most. <br> If you can't find what you need, our support team is one message away."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Extension",
+  "privacy": "Privacy policy",
+  "terms": "Terms of use",
+  "language": "Language",
+  "mode": "Mode",
+  "change_theme": "Change theme",
+  "change_lang": "Change language",
+
+  "aside": {
+    "gettingStarted": "Getting Started",
+    "buyingSelling": "Buying & selling",
+    "fees": "Fees",
+    "other": "Other",
+    "desktopApp": "Desktop App",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "What Waxpeer is and how it works?",
+    "howP2PWorks": "How does the P2P system work?",
+    "howToSell": "How to sell on Waxpeer?",
+    "howToBuy": "How to buy on Waxpeer?",
+    "tradeLock": "Trade Lock and Trade Protection",
+    "instantSale": "How to make an Instant sale?",
+    "primeTime": "How does prime time work?",
+    "holdBalance": "What’s hold balance?",
+    "sellingFees": "Selling fees",
+    "depositFees": "Deposit fees",
+    "withdrawalFees": "Withdrawal fees",
+    "addFunds": "How to add funds on the website?",
+    "referralProgram": "How does referral program work?",
+    "sellerNotSending": "What happens if seller does not send the item to the buyer?",
+    "contactSupport": "I have a question/problem, who should I contact?",
+    "accountHistory": "Is there a way to see history of my account?",
+    "scammed": "Is there a way to get scammed using Waxpeer?",
+    "desktopAppInfo": "All about Waxpeer desktop application",
+    "depositSkinsWaxpeerPay": "How to deposit skins via Waxpeer Pay"
+  },
+
+  "toast": {
+    "error": "Error",
+    "attention": "Attention",
+    "success": "Success"
+  }
+}
