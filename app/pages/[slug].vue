@@ -23,11 +23,11 @@ const PageContent = getPageContent(slug);
 const copyHandler = async () => {
   if (copied.value) return;
   await copy(urlForCopy.href);
-  $toast.success('Link copied to clipboard');
+  $toast.success(t('link_copied'));
 };
 
 const title = computed(() => {
-  if (!PageContent) return 'Page not found';
+  if (!PageContent) return t('page_not_found');
   if (!PageContent.length) return 'Coming soon';
   return t(`${slug}.title`);
 });

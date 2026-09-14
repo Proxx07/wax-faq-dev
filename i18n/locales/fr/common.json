@@ -4,6 +4,7 @@
   "back_to_market_short": "Retour au marché",
   "contact_support": "Contacter le support",
   "more_answers": "Plus de réponses",
+  "link_copied": "Lien copié dans le presse-papiers",
 
   "search": "Rechercher...",
   "search_block": {
@@ -11,6 +12,7 @@
     "description": "Guides, tutoriels et réponses aux questions les plus fréquentes. <br> Si vous ne trouvez pas ce dont vous avez besoin, notre équipe d'assistance n'est qu'à un message."
   },
 
+  "page_not_found": "Page introuvable",
   "blog": "Blog",
   "api": "API",
   "extension": "Extension",
@@ -20,6 +22,16 @@
   "mode": "Mode",
   "change_theme": "Changer de thème",
   "change_lang": "Changer de langue",
+
+  "yes": "Oui",
+  "no": "Non",
+  "feedback": {
+    "thanks": "💙 Merci pour vos commentaires !",
+    "sorry": "Désolé pour cela ! Souhaitez-vous nous en dire plus ?",
+    "is-helpful": "Cet article vous a-t-il été utile ?",
+    "what-unhelpful": "Qu'est-ce qui n'a pas été utile ? Dites-nous en plus...",
+    "send": "Envoyer des commentaires"
+  },
 
   "aside": {
     "gettingStarted": "Mise en route",

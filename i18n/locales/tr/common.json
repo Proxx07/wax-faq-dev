@@ -4,6 +4,7 @@
   "back_to_market_short": "Pazara dön",
   "contact_support": "Destek ile iletişime geç",
   "more_answers": "Daha fazla cevap",
+  "link_copied": "Bağlantı panoya kopyalandı",
 
   "search": "Ara...",
   "search_block": {
@@ -11,6 +12,7 @@
     "description": "Rehberler, öğreticiler ve en çok duyduğumuz soruların cevapları. <br> İhtiyacınız olanı bulamazsanız, destek ekibimiz bir mesaj uzağınızda."
   },
 
+  "page_not_found": "Sayfa bulunamadı",
   "blog": "Blog",
   "api": "API",
   "extension": "Eklenti",
@@ -20,6 +22,16 @@
   "mode": "Mod",
   "change_theme": "Temayı değiştir",
   "change_lang": "Dili değiştir",
+
+  "yes": "Evet",
+  "no": "Hayır",
+  "feedback": {
+    "thanks": "💙 Geri bildiriminiz için teşekkürler!",
+    "sorry": "Bunun için özür dileriz! Bize daha fazla bilgi vermek ister misiniz?",
+    "is-helpful": "Bu makale yararlı oldu mu?",
+    "what-unhelpful": "Ne yararsızdı? Bize daha fazlasını anlatın...",
+    "send": "Geri bildirim gönder"
+  },
 
   "aside": {
     "gettingStarted": "Başlarken",

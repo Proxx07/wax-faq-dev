@@ -8,10 +8,11 @@ const props = defineProps<{
 }>();
 
 const { step, setStep, feedbackForm, isFormInvalid, submitForm } = useFeedbackForm(props.title);
+const { t } = useI18n();
 const stepTitle = computed(() => {
-  if (step.value === 'submitted') return '💙 Thank you for the feedback!';
-  if (step.value === 'form') return 'Sorry about that! Care to tell us more?';
-  return 'Was this article helpful?';
+  if (step.value === 'submitted') return t('feedback.thanks');
+  if (step.value === 'form') return t('feedback.sorry');
+  return t('feedback.is-helpful');
 });
 </script>
 
@@ -25,14 +26,14 @@ const stepTitle = computed(() => {
       <transition name="fade">
         <div v-if="step === 'is-helpful'" class="flex gap justify-center transition-element">
           <Button
-            label="Yes"
+            :label="t('yes')"
             severity="tertiary"
             variant="outlined"
             :icon-right="like"
             @click="setStep('submitted')"
           />
           <Button
-            label="No"
+            :label="t('no')"
             severity="tertiary"
             variant="outlined"
             :icon-right="dislike"
@@ -44,13 +45,13 @@ const stepTitle = computed(() => {
         <form v-if="step === 'form'" class="transition-element" @submit.prevent="submitForm">
           <textarea
             v-model="feedbackForm.desc"
-            placeholder="What was unhelpful? Tell us more..."
+            :placeholder="t('feedback.what-unhelpful')"
             :class="[isFormInvalid && 'error']"
             @input="isFormInvalid = Boolean(!feedbackForm.desc)"
           />
 
           <Button
-            label="Send feedback"
+            :label="t('feedback.send')"
             type="submit"
             severity="tertiary"
             class="align-self-start"

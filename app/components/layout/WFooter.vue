@@ -13,13 +13,14 @@ const isFooterVisible = ref(false);
 const transform = computed(() => isFooterVisible.value ? 'translateY(0)' : 'translateY(100%)');
 
 const onScroll = useThrottleFn((value: number, oldValue: number) => {
-  if (!oldValue || isMax('tablet')) return;
+  if (!oldValue) return;
   isFooterVisible.value = value - oldValue < 0;
 }, 250);
 const stopWatcher = watch(y, onScroll);
 
 const drawerStore = useDrawerStore();
 const { t } = useI18n();
+
 onMounted(() => {
   if (isMax('tablet')) return stopWatcher();
   isFooterVisible.value = true;

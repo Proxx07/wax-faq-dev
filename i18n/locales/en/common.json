@@ -4,6 +4,7 @@
   "back_to_market_short": "Back to market",
   "contact_support": "Contact support",
   "more_answers": "More answers",
+  "link_copied": "Link copied to clipboard",
 
   "search": "Search ...",
   "search_block": {
@@ -11,6 +12,7 @@
     "description": "Guides, walkthroughs, and answers to the questions we hear most. <br> If you can't find what you need, our support team is one message away."
   },
 
+  "page_not_found": "Page not found",
   "blog": "Blog",
   "api": "API",
   "extension": "Extension",
@@ -20,6 +22,16 @@
   "mode": "Mode",
   "change_theme": "Change theme",
   "change_lang": "Change language",
+
+  "yes": "Yes",
+  "no": "No",
+  "feedback": {
+    "thanks": "\uD83D\uDC99 Thank you for the feedback!",
+    "sorry": "Sorry about that! Care to tell us more?",
+    "is-helpful": "Was this article helpful?",
+    "what-unhelpful": "What was unhelpful? Tell us more...",
+    "send": "Send feedback"
+  },
 
   "aside": {
     "gettingStarted": "Getting Started",
