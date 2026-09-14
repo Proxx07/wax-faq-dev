@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "Was passiert, wenn der Verkäufer den Artikel nicht an den Käufer sendet?",
+    "content": {
+      "p1": "Es ist ganz einfach: Wenn der Verkäufer den Artikel nicht vor Ablauf des Timers an den Käufer sendet, wird die Transaktion storniert. Der von uns gesendete Handel wird automatisch storniert, der Käufer erhält eine Rückerstattung und das Angebot wird entfernt (es kann erneut eingestellt werden). Benutzer, die jedoch das Rückerstattungssystem missbrauchen, indem sie Verkäufer und/oder Käufer trollen, indem sie Trades ständig nicht akzeptieren oder ablehnen, müssen mit Konsequenzen rechnen."
+    }
+  }
+}

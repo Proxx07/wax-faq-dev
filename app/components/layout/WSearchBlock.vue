@@ -90,6 +90,7 @@ const model = computed({
   margin-top: 3rem;
   @include media-max($tablet) {
     margin-top: .4rem;
+    max-width: 100%;
   }
   :deep(.input-inner) {
     --gap: 1.2rem;

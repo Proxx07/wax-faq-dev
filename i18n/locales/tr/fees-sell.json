@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Satış ücretleri",
+    "content": {
+      "p1": "Satış ücreti %6'dır. Daha açıklayıcı olmak gerekirse: 100$'a bir eşya satan bir satıcı, eşya başarıyla teslim edildiğinde WaxPeer bakiyesine 94$ alır."
+    }
+  }
+}

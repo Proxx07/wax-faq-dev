@@ -1,0 +1,57 @@
+{
+  "help_center": "Yardım Merkezi",
+  "back_to_market": "Pazara geri dön",
+  "back_to_market_short": "Pazara dön",
+  "contact_support": "Destek ile iletişime geç",
+  "more_answers": "Daha fazla cevap",
+
+  "search": "Ara...",
+  "search_block": {
+    "title": "Nasıl yardımcı olabiliriz?",
+    "description": "Rehberler, öğreticiler ve en çok duyduğumuz soruların cevapları. <br> İhtiyacınız olanı bulamazsanız, destek ekibimiz bir mesaj uzağınızda."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Eklenti",
+  "privacy": "Gizlilik politikası",
+  "terms": "Kullanım koşulları",
+  "language": "Dil",
+  "mode": "Mod",
+  "change_theme": "Temayı değiştir",
+  "change_lang": "Dili değiştir",
+
+  "aside": {
+    "gettingStarted": "Başlarken",
+    "buyingSelling": "Alım & satım",
+    "fees": "Ücretler",
+    "other": "Diğer",
+    "desktopApp": "Masaüstü Uygulaması",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "Waxpeer nedir ve nasıl çalışır?",
+    "howP2PWorks": "P2P sistemi nasıl çalışır?",
+    "howToSell": "Waxpeer'da nasıl satılır?",
+    "howToBuy": "Waxpeer'da nasıl alınır?",
+    "tradeLock": "Takas Kilidi ve Takas Koruması",
+    "instantSale": "Anında satış nasıl yapılır?",
+    "primeTime": "Prime time nasıl çalışır?",
+    "holdBalance": "Bekleyen bakiye nedir?",
+    "sellingFees": "Satış ücretleri",
+    "depositFees": "Para yatırma ücretleri",
+    "withdrawalFees": "Para çekme ücretleri",
+    "addFunds": "Web sitesinde nasıl para eklenir?",
+    "referralProgram": "Referans programı nasıl çalışır?",
+    "sellerNotSending": "Satıcı eşyayı alıcıya göndermezse ne olur?",
+    "contactSupport": "Bir sorum/sorunum var, kiminle iletişime geçmeliyim?",
+    "accountHistory": "Hesabımın geçmişini görmenin bir yolu var mı?",
+    "scammed": "Waxpeer kullanarak dolandırılmanın bir yolu var mı?",
+    "desktopAppInfo": "Waxpeer masaüstü uygulaması hakkında her şey",
+    "depositSkinsWaxpeerPay": "Waxpeer Pay aracılığıyla skinler nasıl yatırılır"
+  },
+
+  "toast": {
+    "error": "Hata",
+    "attention": "Dikkat",
+    "success": "Başarılı"
+  }
+}

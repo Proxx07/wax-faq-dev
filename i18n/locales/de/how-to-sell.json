@@ -1,0 +1,16 @@
+{
+  "how-to-sell": {
+    "title": "Wie man auf WaxPeer verkauft",
+    "content": {
+      "p1": "Das Verkaufen ist einfach, dennoch müssen einige Dinge eingerichtet werden, um verkaufen zu können. Zuerst müssen Sie Ihren Trade-Link und Ihren Steam-API-Schlüssel im Bereich „Steam-Konto“ Ihres WaxPeer-Benutzerprofils speichern.",
+      "p2": "Nach Abschluss der Profileinstellungen und dem Starten von Verkäufen müssen Sie zum Abschnitt „Artikel verkaufen“ (Sell items) gehen. Wenn Sie die „Waxpeer-Erweiterung“ (Waxpeer Extension) bereits installiert haben, stellen Sie sicher, dass Sie sich im Status „Online“ befinden. Wenn alles erfolgreich ist, sehen Sie in diesem Fall auf der linken Seite der Seite „Verkäufe verfügbar“ (Sales available). Wenn Sie keine Erweiterung haben, müssen Sie entweder unsere Erweiterung oder unsere Anwendung herunterladen, damit wir die Trades automatisieren können.",
+      "p3": "Sobald die Erweiterung oder Anwendung einsatzbereit ist, sieht sie wie auf einem der gezeigten Bilder aus. (Wenn Ihre Erweiterung den Status „Bitte bei Steam anmelden“ (Please log in to Steam) hat, bedeutet dies, dass Sie in Ihrem Browser sowohl bei steamcommunity.com als auch bei steampowered.com bei Steam angemeldet sein müssen). Sobald Ihr „P2P-Status“ online (grün) ist, können Sie mit dem Verkauf beginnen, indem Sie einen Skin auswählen, einen Preis dafür festlegen und ihn einstellen.",
+      "p4": "Jetzt können Sie die Artikel auswählen, die Sie verkaufen möchten.",
+      "p5": "Während Sie den Preis für Ihr Angebot festlegen, können Sie die oberen Schaltflächen verwenden, um ganz einfach einen guten Preis festzulegen, der zu Ihnen passt.",
+      "p6": "Alle Ihre zum Verkauf stehenden Artikel befinden sich im Bereich „Verkaufsangebote“ (Sell offers). In diesem Bereich können Sie den Status Ihres Angebots überwachen, den Preis ändern oder das Angebot löschen.",
+      "p7": "Sobald sich jemand entscheidet, einen Ihrer gelisteten Artikel zu kaufen, erhalten Sie eine Benachrichtigung auf der Seite. Wenn Sie möchten, können Sie auch Ihr Discord und/oder Telegram über Ihre Kontoeinstellungen mit WaxPeer verbinden, um neben der Website selbst auch dort benachrichtigt zu werden.",
+      "p8": "Sie müssen den Handel bestätigen, der von uns über Ihr Konto gesendet wurde, sobald jemand Ihren zum Verkauf stehenden Artikel kauft. Die Bestätigung erscheint in der mobilen Steam-App im Abschnitt „Bestätigungen“ (Confirmations). Sobald Sie dies bestätigen, wird der Artikel versendet. Sobald der Käufer das Handelsangebot mit dem Artikel annimmt, wird Ihr WaxPeer-Konto gutgeschrieben.",
+      "p9": "Denken Sie daran, dass Sie nur handelbare Artikel verkaufen können."
+    }
+  }
+}

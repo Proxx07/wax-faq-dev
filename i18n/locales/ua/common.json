@@ -1,0 +1,57 @@
+{
+  "help_center": "Довідковий центр",
+  "back_to_market": "Повернутися до маркетплейсу",
+  "back_to_market_short": "Повернутися до маркету",
+  "contact_support": "Зв'язатися з підтримкою",
+  "more_answers": "Більше відповідей",
+
+  "search": "Пошук...",
+  "search_block": {
+    "title": "Чим ми можемо допомогти?",
+    "description": "Посібники, інструкції та відповіді на найчастіші запитання. <br> Якщо ви не можете знайти те, що вам потрібно, наша служба підтримки завжди на зв'язку."
+  },
+
+  "blog": "Блог",
+  "api": "API",
+  "extension": "Розширення",
+  "privacy": "Політика конфіденційності",
+  "terms": "Умови використання",
+  "language": "Мова",
+  "mode": "Режим",
+  "change_theme": "Змінити тему",
+  "change_lang": "Змінити мову",
+
+  "aside": {
+    "gettingStarted": "Початок роботи",
+    "buyingSelling": "Купівля та продаж",
+    "fees": "Комісії",
+    "other": "Інше",
+    "desktopApp": "Десктопний додаток",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "Що таке Waxpeer і як він працює?",
+    "howP2PWorks": "Як працює система P2P?",
+    "howToSell": "Як продавати на Waxpeer?",
+    "howToBuy": "Як купувати на Waxpeer?",
+    "tradeLock": "Трейд-бан і захист обміну",
+    "instantSale": "Як зробити миттєвий продаж?",
+    "primeTime": "Як працює прайм-тайм?",
+    "holdBalance": "Що таке утримання балансу?",
+    "sellingFees": "Комісії за продаж",
+    "depositFees": "Комісії за депозит",
+    "withdrawalFees": "Комісії за виведення",
+    "addFunds": "Як поповнити рахунок на сайті?",
+    "referralProgram": "Як працює реферальна програма?",
+    "sellerNotSending": "Що станеться, якщо продавець не відправить товар покупцеві?",
+    "contactSupport": "У мене є питання/проблема, до кого звернутися?",
+    "accountHistory": "Чи можна переглянути історію мого акаунта?",
+    "scammed": "Чи можна бути обдуреним, використовуючи Waxpeer?",
+    "desktopAppInfo": "Все про десктопний додаток Waxpeer",
+    "depositSkinsWaxpeerPay": "Як внести скіни через Waxpeer Pay"
+  },
+
+  "toast": {
+    "error": "Помилка",
+    "attention": "Увага",
+    "success": "Успіх"
+  }
+}

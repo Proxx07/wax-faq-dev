@@ -1,0 +1,57 @@
+{
+  "help_center": "Centrum pomocy",
+  "back_to_market": "Wróć do rynku",
+  "back_to_market_short": "Wróć do rynku",
+  "contact_support": "Skontaktuj się z pomocą techniczną",
+  "more_answers": "Więcej odpowiedzi",
+
+  "search": "Szukaj...",
+  "search_block": {
+    "title": "W czym możemy pomóc?",
+    "description": "Przewodniki, instrukcje i odpowiedzi na najczęściej zadawane pytania. <br> Jeśli nie możesz znaleźć tego, czego potrzebujesz, nasz zespół wsparcia jest na wyciągnięcie ręki."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Rozszerzenie",
+  "privacy": "Polityka prywatności",
+  "terms": "Warunki korzystania",
+  "language": "Język",
+  "mode": "Tryb",
+  "change_theme": "Zmień motyw",
+  "change_lang": "Zmień język",
+
+  "aside": {
+    "gettingStarted": "Rozpoczęcie pracy",
+    "buyingSelling": "Kupno i sprzedaż",
+    "fees": "Opłaty",
+    "other": "Inne",
+    "desktopApp": "Aplikacja komputerowa",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "Czym jest Waxpeer i jak działa?",
+    "howP2PWorks": "Jak działa system P2P?",
+    "howToSell": "Jak sprzedawać na Waxpeer?",
+    "howToBuy": "Jak kupować na Waxpeer?",
+    "tradeLock": "Blokada wymiany i ochrona wymiany",
+    "instantSale": "Jak dokonać natychmiastowej sprzedaży?",
+    "primeTime": "Jak działa prime time?",
+    "holdBalance": "Czym jest wstrzymane saldo?",
+    "sellingFees": "Opłaty za sprzedaż",
+    "depositFees": "Opłaty za wpłatę",
+    "withdrawalFees": "Opłaty za wypłatę",
+    "addFunds": "Jak dodać środki na stronie?",
+    "referralProgram": "Jak działa program poleceń?",
+    "sellerNotSending": "Co się stanie, jeśli sprzedawca nie wyśle przedmiotu do kupującego?",
+    "contactSupport": "Mam pytanie/problem, z kim powinienem się skontaktować?",
+    "accountHistory": "Czy można sprawdzić historię mojego konta?",
+    "scammed": "Czy można zostać oszukanym korzystając z Waxpeer?",
+    "desktopAppInfo": "Wszystko o aplikacji komputerowej Waxpeer",
+    "depositSkinsWaxpeerPay": "Jak zdeponować skiny przez Waxpeer Pay"
+  },
+
+  "toast": {
+    "error": "Błąd",
+    "attention": "Uwaga",
+    "success": "Sukces"
+  }
+}

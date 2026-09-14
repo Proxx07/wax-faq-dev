@@ -92,6 +92,11 @@ const drawerStore = useDrawerStore();
     display: flex;
     align-items: center;
     gap: 1rem;
+    padding-left: 1rem;
+    @include media-max($mobile) {
+      gap: .5rem;
+      padding-bottom: 1px;
+    }
     .help-center {
       font: var(--font-16-n);
       color: var(--on-surface-secondary);

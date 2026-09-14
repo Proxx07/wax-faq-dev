@@ -1,0 +1,57 @@
+{
+  "help_center": "Hilfecenter",
+  "back_to_market": "Zurück zum Marktplatz",
+  "back_to_market_short": "Zurück zum Markt",
+  "contact_support": "Support kontaktieren",
+  "more_answers": "Mehr Antworten",
+
+  "search": "Suchen...",
+  "search_block": {
+    "title": "Wie können wir helfen?",
+    "description": "Anleitungen, Walkthroughs und Antworten auf die häufigsten Fragen. <br> Wenn Sie nicht finden, was Sie brauchen, ist unser Support-Team nur eine Nachricht entfernt."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Erweiterung",
+  "privacy": "Datenschutzrichtlinie",
+  "terms": "Nutzungsbedingungen",
+  "language": "Sprache",
+  "mode": "Modus",
+  "change_theme": "Design ändern",
+  "change_lang": "Sprache ändern",
+
+  "aside": {
+    "gettingStarted": "Erste Schritte",
+    "buyingSelling": "Kaufen & Verkaufen",
+    "fees": "Gebühren",
+    "other": "Sonstiges",
+    "desktopApp": "Desktop-App",
+    "waxpeerPay": "Waxpeer Pay",
+    "whatIsWaxpeer": "Was ist Waxpeer und wie funktioniert es?",
+    "howP2PWorks": "Wie funktioniert das P2P-System?",
+    "howToSell": "Wie verkauft man auf Waxpeer?",
+    "howToBuy": "Wie kauft man auf Waxpeer?",
+    "tradeLock": "Handelssperre und Handelsschutz",
+    "instantSale": "Wie mache ich einen Sofortverkauf?",
+    "primeTime": "Wie funktioniert Prime Time?",
+    "holdBalance": "Was ist ein zurückbehaltenes Guthaben?",
+    "sellingFees": "Verkaufsgebühren",
+    "depositFees": "Einzahlungsgebühren",
+    "withdrawalFees": "Auszahlungsgebühren",
+    "addFunds": "Wie füge ich Geld auf der Website hinzu?",
+    "referralProgram": "Wie funktioniert das Empfehlungsprogramm?",
+    "sellerNotSending": "Was passiert, wenn der Verkäufer den Artikel nicht an den Käufer sendet?",
+    "contactSupport": "Ich habe eine Frage/ein Problem, an wen soll ich mich wenden?",
+    "accountHistory": "Gibt es eine Möglichkeit, den Verlauf meines Kontos zu sehen?",
+    "scammed": "Ist es möglich, bei der Nutzung von Waxpeer betrogen zu werden?",
+    "desktopAppInfo": "Alles über die Waxpeer Desktop-App",
+    "depositSkinsWaxpeerPay": "Wie man Skins über Waxpeer Pay einzahlt"
+  },
+
+  "toast": {
+    "error": "Fehler",
+    "attention": "Achtung",
+    "success": "Erfolg"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Comisiones de venta",
+    "content": {
+      "p1": "La comisión de venta es del 6%. Para ser más claros: un vendedor que vende un artículo por 100$ obtiene 94$ en su saldo de WaxPeer una vez que el artículo se entrega con éxito."
+    }
+  }
+}

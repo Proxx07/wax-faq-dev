@@ -1,0 +1,57 @@
+{
+  "help_center": "Centre d'aide",
+  "back_to_market": "Retour à la place de marché",
+  "back_to_market_short": "Retour au marché",
+  "contact_support": "Contacter le support",
+  "more_answers": "Plus de réponses",
+
+  "search": "Rechercher...",
+  "search_block": {
+    "title": "Comment pouvons-nous vous aider ?",
+    "description": "Guides, tutoriels et réponses aux questions les plus fréquentes. <br> Si vous ne trouvez pas ce dont vous avez besoin, notre équipe d'assistance n'est qu'à un message."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Extension",
+  "privacy": "Politique de confidentialité",
+  "terms": "Conditions d'utilisation",
+  "language": "Langue",
+  "mode": "Mode",
+  "change_theme": "Changer de thème",
+  "change_lang": "Changer de langue",
+
+  "aside": {
+    "gettingStarted": "Mise en route",
+    "buyingSelling": "Achat et vente",
+    "fees": "Frais",
+    "other": "Autre",
+    "desktopApp": "Application de bureau",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "Qu'est-ce que Waxpeer et comment ça marche ?",
+    "howP2PWorks": "Comment fonctionne le système P2P ?",
+    "howToSell": "Comment vendre sur Waxpeer ?",
+    "howToBuy": "Comment acheter sur Waxpeer ?",
+    "tradeLock": "Blocage des échanges et protection des échanges",
+    "instantSale": "Comment faire une vente instantanée ?",
+    "primeTime": "Comment fonctionne le prime time ?",
+    "holdBalance": "Qu'est-ce que le solde retenu ?",
+    "sellingFees": "Frais de vente",
+    "depositFees": "Frais de dépôt",
+    "withdrawalFees": "Frais de retrait",
+    "addFunds": "Comment ajouter des fonds sur le site web ?",
+    "referralProgram": "Comment fonctionne le programme de parrainage ?",
+    "sellerNotSending": "Que se passe-t-il si le vendeur n'envoie pas l'article à l'acheteur ?",
+    "contactSupport": "J'ai une question/un problème, qui dois-je contacter ?",
+    "accountHistory": "Y a-t-il un moyen de voir l'historique de mon compte ?",
+    "scammed": "Est-il possible de se faire arnaquer en utilisant Waxpeer ?",
+    "desktopAppInfo": "Tout sur l'application de bureau Waxpeer",
+    "depositSkinsWaxpeerPay": "Comment déposer des skins via Waxpeer Pay"
+  },
+
+  "toast": {
+    "error": "Erreur",
+    "attention": "Attention",
+    "success": "Succès"
+  }
+}

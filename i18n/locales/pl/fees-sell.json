@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Opłaty za sprzedaż",
+    "content": {
+      "p1": "Prowizja od sprzedaży wynosi 6%. Tłumacząc prościej: sprzedawca, który sprzedaje przedmiot za 100$, otrzymuje 94$ na swoje saldo WaxPeer po pomyślnym dostarczeniu przedmiotu."
+    }
+  }
+}

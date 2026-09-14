@@ -1,0 +1,57 @@
+{
+  "help_center": "Centro de ayuda",
+  "back_to_market": "Volver al mercado",
+  "back_to_market_short": "Volver al mercado",
+  "contact_support": "Contactar soporte",
+  "more_answers": "Más respuestas",
+
+  "search": "Buscar...",
+  "search_block": {
+    "title": "¿Cómo podemos ayudarte?",
+    "description": "Guías, tutoriales y respuestas a las preguntas más frecuentes. <br> Si no encuentras lo que necesitas, nuestro equipo de soporte está a un mensaje de distancia."
+  },
+
+  "blog": "Blog",
+  "api": "API",
+  "extension": "Extensión",
+  "privacy": "Política de privacidad",
+  "terms": "Términos de uso",
+  "language": "Idioma",
+  "mode": "Modo",
+  "change_theme": "Cambiar tema",
+  "change_lang": "Cambiar idioma",
+
+  "aside": {
+    "gettingStarted": "Empezando",
+    "buyingSelling": "Compra y venta",
+    "fees": "Comisiones",
+    "other": "Otro",
+    "desktopApp": "Aplicación de escritorio",
+    "waxpeerPay": "Waxpeer pay",
+    "whatIsWaxpeer": "¿Qué es Waxpeer y cómo funciona?",
+    "howP2PWorks": "¿Cómo funciona el sistema P2P?",
+    "howToSell": "¿Cómo vender en Waxpeer?",
+    "howToBuy": "¿Cómo comprar en Waxpeer?",
+    "tradeLock": "Bloqueo de intercambio y Protección de intercambio",
+    "instantSale": "¿Cómo hacer una venta instantánea?",
+    "primeTime": "¿Cómo funciona el prime time?",
+    "holdBalance": "¿Qué es el saldo retenido?",
+    "sellingFees": "Comisiones de venta",
+    "depositFees": "Comisiones de depósito",
+    "withdrawalFees": "Comisiones de retiro",
+    "addFunds": "¿Cómo añadir fondos en el sitio web?",
+    "referralProgram": "¿Cómo funciona el programa de referidos?",
+    "sellerNotSending": "¿Qué pasa si el vendedor no envía el artículo al comprador?",
+    "contactSupport": "Tengo una pregunta/problema, ¿a quién debo contactar?",
+    "accountHistory": "¿Hay alguna forma de ver el historial de mi cuenta?",
+    "scammed": "¿Hay alguna forma de ser estafado usando Waxpeer?",
+    "desktopAppInfo": "Todo sobre la aplicación de escritorio de Waxpeer",
+    "depositSkinsWaxpeerPay": "Cómo depositar skins a través de Waxpeer Pay"
+  },
+
+  "toast": {
+    "error": "Error",
+    "attention": "Atención",
+    "success": "Éxito"
+  }
+}

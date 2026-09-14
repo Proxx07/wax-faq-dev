@@ -1,0 +1,9 @@
+{
+  "safety-wax": {
+    "title": "Ist es möglich, bei der Nutzung von Waxpeer betrogen zu werden?",
+    "content": {
+      "p1": "Nein, es gibt keine Möglichkeit, über WaxPeer betrogen zu werden, wenn Ihr Konto sicher ist. Wenn Sie jedoch beim Verkauf Ihres Skins 2 Trades haben, von denen einer (von uns gesendet) storniert und einer (vom Betrüger gesendet) gesendet, akzeptiert und auf eine mobile Bestätigung wartet, bedeutet dies, dass Ihre Kontoinformationen höchstwahrscheinlich von Betrügern gestohlen wurden. Auf den ersten Blick könnten Sie denken, dass diese beiden Trades an dasselbe Konto gesendet wurden. Wenn Sie jedoch ihre Steam-Community-Links überprüfen, werden Sie feststellen, dass es sich um unterschiedliche Konten handelt. Dies kann auf eine Phishing-Website zurückzuführen sein, bei der Sie sich angemeldet haben, auch wenn dies schon Jahre her ist.",
+      "p2": "Wir übernehmen keine Verantwortung für solche Dinge, da es nicht unsere Schuld ist. In solchen Fällen sollten Sie Ihr Steam-Passwort zurücksetzen, die Cookies in Ihrem Browser löschen und die Autorisierung aller Geräte von Ihrem Steam-Konto aufheben. Danach können Sie wieder sicher verkaufen."
+    }
+  }
+}

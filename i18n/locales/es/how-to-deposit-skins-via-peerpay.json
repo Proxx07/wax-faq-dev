@@ -1,0 +1,18 @@
+{
+  "how-to-deposit-skins-via-peerpay": {
+    "title": "Cómo depositar skins a través de WaxPeer Pay",
+    "content": {
+      "p1": "Cuando entres por primera vez al sitio, lo más probable es que tengas esta pantalla y no podrás vender:",
+      "p2": "Para vender tu skin, en primer lugar, debes instalar y configurar nuestra extensión (si el estado dice 'asegúrate de haber iniciado sesión en Steam', esto significa que debes iniciar sesión en steamcommunity.com y steampowered.com en tu navegador).",
+      "p3": "Una vez que configures todo y estés listo para vender, tu página se verá así:",
+      "p4": "A continuación, debes configurar tu API de Steam y enlace de intercambio (Trade link) en la sección 'Configuración' y guardar. Ten en cuenta que la clave API no se puede usar para crear intercambios y SIEMPRE debes mantener actualizada tu API de Steam configurada en nuestro sitio. También puedes conectar tu Discord y/o Telegram para recibir notificaciones allí cuando alguien compre tu artículo.",
+      "p5": "Luego, para que aparezcan tus artículos, debes actualizar tu inventario. Entonces se mostrarán tus skins que sean intercambiables y elegibles.",
+      "p6": "Una vez que hagas clic en el artículo, puedes establecer tu propio precio.",
+      "p7": "Puedes establecer tu propio precio, pero si quieres, también puedes elegir el método instantáneo. El método instantáneo te dará un precio más bajo que coincide con la orden de compra más alta, por lo tanto, vendiendo tu artículo al instante. Ten en cuenta que si el propietario de esa orden de compra no está en línea, no se activará.",
+      "p8": "A partir de este punto, esperarás a un comprador. Esto no es un depósito directo al sitio, es más bien una venta de tu(s) skin(s), pero el dinero que obtienes se deposita en el sitio. Una vez que alguien compre tu(s) skin(s), se te notificará en el sitio y, si los has conectado, en Discord y Telegram.",
+      "p9": "Una vez que se compre tu skin, nuestra extensión (o aplicación, dependiendo de la que estés utilizando - ambas funcionan) creará el intercambio para ti y solo tendrás que confirmarlo a través de Steam Guard. Asegúrate de que no haya intercambios duplicados y de que estás confirmando el intercambio correcto.",
+      "p10": "Además, este pequeño símbolo junto al nombre del comerciante significa que el comerciante (sitio) en el que estás haciendo un depósito está verificado por nosotros.",
+      "p11": "Una vez que el artículo se entregue al comprador con éxito, recibirás tus monedas/dinero en el sitio al que estás haciendo un depósito en un plazo de 5 minutos (en raras ocasiones pueden ocurrir pequeños retrasos). ¡Buena suerte!"
+    }
+  }
+}

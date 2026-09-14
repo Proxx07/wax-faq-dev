@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Frais de vente",
+    "content": {
+      "p1": "Les frais de vente sont de 6%. Pour être plus clair : un vendeur qui vend un article pour 100 $ reçoit 94 $ sur son solde WaxPeer une fois l'article livré avec succès."
+    }
+  }
+}

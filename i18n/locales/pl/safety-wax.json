@@ -1,0 +1,9 @@
+{
+  "safety-wax": {
+    "title": "Czy można zostać oszukanym korzystając z Waxpeer?",
+    "content": {
+      "p1": "Nie, nie ma możliwości, abyś został oszukany przez WaxPeer, jeśli Twoje konto jest bezpieczne. Ale jeśli podczas sprzedaży skina masz 2 wymiany, jedną (wysłaną przez nas) anulowaną i drugą (wysłaną przez oszusta) wysłaną, zaakceptowaną i czekającą na potwierdzenie mobilne, oznacza to, że informacje o Twoim koncie najprawdopodobniej zostały skradzione przez oszustów. Na pierwszy rzut oka możesz pomyśleć, że te dwie wymiany zostały wysłane na to samo konto, ale jeśli sprawdzisz ich linki społeczności Steam, zobaczysz, że to różne konta. Może to być spowodowane zalogowaniem się na stronie phishingowej, nawet jeśli było to lata temu.",
+      "p2": "Nie ponosimy winy za takie sytuacje, ponieważ nie jest to nasza wina. W takich przypadkach powinieneś zresetować swoje hasło Steam, wyczyścić pliki cookie w przeglądarce i cofnąć autoryzację wszystkich urządzeń na swoim koncie Steam. Następnie znów będziesz mógł bezpiecznie sprzedawać."
+    }
+  }
+}

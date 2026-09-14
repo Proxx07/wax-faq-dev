@@ -1,0 +1,16 @@
+{
+  "peer-desktop-app": {
+    "title": "Wszystko o aplikacji komputerowej WaxPeer",
+    "content": {
+      "p1": "Aplikację komputerową WaxPeer (WaxPeer App) można pobrać na systemy Windows, Mac lub Linux ze strony app.waxpeer.com",
+      "p2": "Po pobraniu powinieneś zalogować się na swoje konto Steam, używając swojej nazwy użytkownika, hasła i kodu Steam Guard.",
+      "p3": "Aby sprzedawać, powinieneś wprowadzić swój klucz Steam API i trade link w ustawieniach. Następnie możesz wybrać i sprzedawać pożądane skiny przez WaxPeer (waxpeer.com), a resztę można zrobić po prostu przez WaxPeer App.",
+      "p4": "Na stronie ustawień możesz również wybrać, czy chcesz otrzymywać powiadomienia z aplikacji, czy chcesz, aby aplikacja uruchamiała się automatycznie zaraz po włączeniu komputera, i czy chcesz, aby automatycznie akceptowała przychodzące prezenty (wymiany) na Steam.",
+      "p5": "WaxPeer App nie tylko pomaga w sprzedaży, ale także jeszcze bardziej ułatwia sprzedaż i zarządzanie kontem (kontami). Możesz również podłączyć swoje inne konta do WaxPeer App, aby łatwo zarządzać nimi wszystkimi naraz za pośrednictwem aplikacji. Wszystko, co musisz zrobić, to nacisnąć przycisk „dodaj więcej” (add more) i zalogować się za pomocą innego konta (kont). Później możesz usunąć te konta, naciskając „X” obok nich, i dodać je z powrotem, kiedy tylko zechcesz. Nie ma limitów określających, ile kont maksymalnie możesz dodać.",
+      "p6": "Możesz również używać WaxPeer App do sprawdzania swojego salda, wypłacania środków i sprawdzania swoich statusów.",
+      "p7": "Za pośrednictwem WaxPeer App możesz również korzystać z proxy i maFile:",
+      "p8": "Proxy pomaga wysyłać Twoje wymiany z innego adresu IP, co jest korzystne dla sprzedawców, którzy sprzedają z wielu kont.",
+      "p9": "MaFile jest przeznaczony dla bardziej zaawansowanych traderów/sprzedawców, w pełni automatyzuje Twoje wymiany. Musisz jednak zachować ostrożność, ponieważ wymaga komputerowego tokena uwierzytelniającego Steam, a w sieci istnieje wiele fałszywych (phishingowych, kradnących informacje) tokenów. Nie zalecamy korzystania z maFile, jeśli nie masz doświadczenia."
+    }
+  }
+}

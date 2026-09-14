@@ -1,0 +1,16 @@
+{
+  "peer-desktop-app": {
+    "title": "WaxPeer masaüstü uygulaması hakkında her şey",
+    "content": {
+      "p1": "WaxPeer masaüstü uygulaması (WaxPeer App), Windows, Mac veya Linux için app.waxpeer.com adresi üzerinden indirilebilir.",
+      "p2": "İndirdikten sonra giriş kullanıcı adınız, şifreniz ve Steam Guard kodunuzu kullanarak Steam hesabınıza giriş yapmalısınız.",
+      "p3": "Satış yapmak için ayarlara Steam API anahtarınızı ve takas bağlantınızı eklemelisiniz. Daha sonra WaxPeer (waxpeer.com) üzerinden dilediğiniz skinleri seçip satabilirsiniz, geri kalanı ise sadece WaxPeer Uygulaması üzerinden yapılabilir.",
+      "p4": "Ayarlar sayfasında ayrıca uygulamadan bildirim alıp almak istemediğinizi, bilgisayarınız açılır açılmaz uygulamanın otomatik olarak çalışıp çalışmamasını ve Steam üzerinden gelen hediyeleri (takasları) otomatik olarak kabul edip etmemesini seçebilirsiniz.",
+      "p5": "WaxPeer App sadece satış yapmanıza yardımcı olmakla kalmaz, aynı zamanda satışı ve hesaplarınızı yönetmeyi daha da kolaylaştırır. Diğer hesaplarınızı da WaxPeer App'e bağlayarak hepsini aynı anda, uygulama üzerinden kolayca yönetebilirsiniz. Tek yapmanız gereken ''daha fazla ekle'' (add more) düğmesine basmak ve diğer hesap(lar)ınız üzerinden giriş yapmaktır. Daha sonra bu hesapların yanındaki ''X'' işaretine basarak onları kaldırabilir ve istediğiniz zaman tekrar ekleyebilirsiniz. En fazla kaç hesap ekleyebileceğinizi belirleyen hiçbir sınır yoktur.",
+      "p6": "WaxPeer Uygulamasını ayrıca bakiyenizi görüntülemek, para çekmek ve durumlarınızı görmek için de kullanabilirsiniz.",
+      "p7": "WaxPeer Uygulaması aracılığıyla proxy ve maFile da kullanabilirsiniz:",
+      "p8": "Proxy, takaslarınızın farklı bir IP adresi üzerinden gönderilmesine yardımcı olur, bu da birden fazla hesaptan satış yapan satıcıların yararınadır.",
+      "p9": "MaFile daha gelişmiş tüccarlar/satıcılar içindir, takaslarınızı tamamen otomatikleştirir. Ancak dikkatli olmalısınız çünkü bir Steam masaüstü kimlik doğrulayıcısı (authenticator) gerektirir ve internette birçok sahte (kimlik avı, bilgilerinizi çalan) kimlik doğrulayıcı vardır. Deneyimli değilseniz maFile kullanmanızı önermeyiz."
+    }
+  }
+}

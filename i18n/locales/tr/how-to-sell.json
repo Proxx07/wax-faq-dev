@@ -1,0 +1,16 @@
+{
+  "how-to-sell": {
+    "title": "WaxPeer'da nasıl satılır",
+    "content": {
+      "p1": "Satış yapmak kolaydır, ancak satış yapabilmek için ayarlanması gereken birkaç şey vardır. İlk olarak, takas bağlantınızı ve Steam API anahtarınızı WaxPeer kullanıcı profilinizin 'Steam Hesabı' bölümüne kaydetmelisiniz.",
+      "p2": "Profil ayarlarını tamamladıktan ve satışlara başladıktan sonra 'Eşya Sat' (Sell items) bölümüne gitmeniz gerekir. 'Waxpeer Eklentisi' (Waxpeer Extension) zaten yüklüyse, 'Çevrimiçi' (Online) durumda olduğunuzdan emin olun. Her şey başarılıysa, bu durumda sayfanın sol tarafında 'Satışlar kullanılabilir' (Sales available) göreceksiniz. Bir eklentiniz yoksa, takasları otomatikleştirebilmemiz için eklentimizi veya uygulamamızı indirmelisiniz.",
+      "p3": "Eklenti veya uygulama kullanıma hazır olduğunda, gösterilen resimlerden biri gibi görünecektir. (Eklentinizin durumu 'Lütfen Steam'e giriş yapın' (Please log in to Steam) ise, bu, tarayıcınızda hem steamcommunity.com hem de steampowered.com'da Steam'e giriş yapmanız gerektiği anlamına gelir) ve 'P2P Durumunuz' çevrimiçi (yeşil) olduğunda, bir skin seçip, bir fiyat belirleyip listeleyerek satmaya başlayabilirsiniz.",
+      "p4": "Artık satmak istediğiniz eşyaları seçebilirsiniz.",
+      "p5": "İlanınız için fiyatı belirlerken, size uygun iyi bir fiyatı kolayca belirlemek için üstteki düğmeleri kullanabilirsiniz.",
+      "p6": "Satılık tüm eşyalarınız 'Satış teklifleri' (Sell offers) bölümünde yer alacaktır. Bu bölümde teklifinizin durumunu izleyebilir, fiyatını değiştirebilir veya teklifi silebilir.",
+      "p7": "Birisi listelenen eşyalarınızdan birini satın almaya karar verdiğinde, sitede bir bildirim alacaksınız. İsterseniz, web sitesinin yanı sıra orada da bildirim almak için hesap ayarlarınız aracılığıyla Discord ve/veya Telegram'ınızı WaxPeer'a bağlayabilirsiniz.",
+      "p8": "Birisi satıştaki eşyanızı satın aldığında hesabınız aracılığıyla tarafımızdan gönderilen takası onaylamanız gerekmektedir. Onay, Steam mobil uygulamasının 'Onaylar' (Confirmations) bölümünde görünür. Onayladıktan sonra eşya gönderilir. Alıcı, eşyanın bulunduğu takas teklifini kabul eder etmez WaxPeer hesabınıza para yatırılır.",
+      "p9": "Yalnızca takas edilebilir eşyaları satabileceğinizi unutmayın."
+    }
+  }
+}

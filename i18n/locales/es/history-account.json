@@ -1,0 +1,9 @@
+{
+  "history-account": {
+    "title": "¿Hay alguna forma de ver el historial de mi cuenta?",
+    "content": {
+      "p1": "Sí, puedes ver fácilmente el historial completo de la actividad de tu cuenta en la sección Transacciones. Muestra todas las operaciones relacionadas con tu saldo, ventas, compras, depósitos y retiros, todo en un solo lugar.",
+      "p2": "Dentro de la página de Transacciones, encontrarás varias pestañas: \"Todas las transacciones\" – aquí puedes ver tu historial completo de transacciones, incluyendo compras de artículos, ventas, depósitos, retiros y reembolsos. Cada entrada muestra información detallada sobre la operación, el artículo y la cantidad. \"Ventas\" – esta pestaña enumera todas las ventas exitosas de artículos con la hora de venta, el precio y la ganancia. \"Recargas\" – esta sección contiene el historial de tus depósitos y retiros, mostrando cuándo y cuánto has añadido o retirado de tu saldo. También puedes usar filtros en el lado izquierdo de la página para ordenar tu historial por juego, tipo, rango de precios o fecha, lo que facilita encontrar cualquier transacción específica."
+    }
+  }
+}

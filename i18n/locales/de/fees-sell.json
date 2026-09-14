@@ -1,0 +1,8 @@
+{
+  "fees-sell": {
+    "title": "Verkaufsgebühren",
+    "content": {
+      "p1": "Die Verkaufsgebühr beträgt 6%. Um es genauer zu erklären: Ein Verkäufer, der einen Artikel für 100 $ verkauft, erhält 94 $ auf sein WaxPeer-Guthaben, sobald der Artikel erfolgreich geliefert wurde."
+    }
+  }
+}

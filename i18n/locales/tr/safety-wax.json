@@ -1,0 +1,9 @@
+{
+  "safety-wax": {
+    "title": "Waxpeer kullanarak dolandırılmanın bir yolu var mı?",
+    "content": {
+      "p1": "Hayır, hesabınız güvendeyse WaxPeer üzerinden dolandırılmanızın hiçbir yolu yoktur. Ancak skininizi satarken 2 takasınız varsa, biri (bizim tarafımızdan gönderilen) iptal edilmiş ve diğeri (dolandırıcı tarafından gönderilen) gönderilmiş, kabul edilmiş ve mobil onay bekliyorsa, bu hesap bilgilerinizin büyük ihtimalle dolandırıcılar tarafından çalındığı anlamına gelir. İlk bakışta bu iki takasın aynı hesaba gönderildiğini düşünebilirsiniz, ancak Steam topluluk bağlantılarını kontrol ederseniz bunların farklı hesaplar olduğunu göreceksiniz. Bu, yıllar önce bile olsa giriş yaptığınız bir kimlik avı (phishing) sitesinden kaynaklanıyor olabilir.",
+      "p2": "Bu bizim hatamız olmadığı için bu tür konularda hiçbir suçu kabul etmiyoruz. Bu gibi durumlarda Steam şifrenizi sıfırlamalı, tarayıcınızdaki çerezleri temizlemeli ve Steam hesabınızdaki tüm cihazların yetkisini kaldırmalısınız. Bundan sonra tekrar güvenle satış yapabileceksiniz."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "Jak kupować na WaxPeer: Przewodnik krok po kroku",
+    "content": {
+      "heading1": "1. Natychmiastowy zakup: Znalezienie przedmiotu i szczegóły ceny",
+      "p1": "Znajdź pożądany przedmiot na rynku (np. Butterfly Knife Doppler). Po najechaniu na niego kursorem zobaczysz szczegółowe informacje: nazwę przedmiotu, Float Value (FN 0.02342), sugerowaną cenę (z ikoną Steam, np. 2045,35$), obecną cenę sprzedaży od sprzedawcy (12 046,34$) oraz procent zniżki (np. -30%). Aby kupić od razu, kliknij niebieski przycisk 'Buy now' (Kup teraz).",
+      "heading2": "2. Status zakupu: Przetwarzanie wymiany",
+      "p2": "Po natychmiastowym zakupie pojawi się okno 'Withdrawal status' (Status wypłaty). Potwierdza ono zakupiony przedmiot (Butterfly Knife Doppler, 12 046,34$) i pokazuje status wymiany. Początkowo system będzie wyświetlał 'Processing the trade' (Przetwarzanie wymiany), podczas gdy przedmiot będzie przygotowywany do dostarczenia.",
+      "heading3": "3. Dodawanie do koszyka a Kup teraz",
+      "p3": "Ten obraz przedstawia dwie opcje dla przedmiotu (M9 Bayonet Lore). Możesz albo kliknąć niebieski przycisk 'Buy now', aby dokonać natychmiastowego zakupu, albo kliknąć ikonę koszyka obok, aby dodać przedmiot do koszyka i kontynuować przeglądanie w celu znalezienia kolejnych przedmiotów.",
+      "heading4": "4. Kupowanie wielu przedmiotów z koszyka",
+      "p4": "Aby kupić wiele wybranych przedmiotów na raz, kliknij ikonę koszyka w prawym górnym rogu strony. Z rozwijanego menu koszyka wyświetlą się wszystkie dodane przedmioty (np. Sport Gloves, Karambit, M9 Bayonet) oraz łączna cena (np. 8 215,76$ za 3 przedmioty). Kliknij zielony przycisk 'Purchase' (Kup), aby sfinalizować zamówienie zbiorcze.",
+      "heading5": "5. Status zakupu: Gotowe do akceptacji wymiany",
+      "p5": "W miarę jak system przetwarza Twoje zakupy, okno 'Withdrawal status' jest aktualizowane. Dla przedmiotów gotowych do odbioru zobaczysz przyciski do zaakceptowania oferty wymiany: 'Accept in browser' (Zaakceptuj w przeglądarce) lub 'In Steam App' (W aplikacji Steam). Inne statusy to m.in. 'Processing the trade' (Przetwarzanie wymiany) lub 'Completed and placed on hold' (Zakończono i wstrzymano) ze względów bezpieczeństwa.",
+      "heading6": "6. Tworzenie zlecenia kupna (Buy Order)",
+      "p6": "Aby ustawić cenę docelową przedmiotu niższą niż obecne oferty, przejdź do strony szczegółów przedmiotu. Pod wykresem cenowym wybierz zakładkę 'Purchase orders' (Zlecenia kupna) w sekcji 'Similar orders' (Podobne zlecenia) i kliknij niebieski przycisk '+ Create order' (+ Utwórz zlecenie).",
+      "heading7": "7. Ustawianie parametrów zlecenia kupna",
+      "p7": "Wyskakujące okienko 'New order' (Nowe zlecenie) pozwala na zdefiniowanie zlecenia kupna. Wprowadź pożądaną cenę (Price) i maksymalną ilość (Max quantity) przedmiotów, które chcesz kupić. Wyświetla się ważna uwaga: 'Buy orders do not filter skins by phase' (Zlecenia kupna nie filtrują skinów po fazie), co oznacza, że zgadzasz się na otrzymanie skina w dowolnej fazie, jeśli pasuje do Twojej ceny. Kliknij 'Create purchase order' (Utwórz zlecenie kupna), aby zatwierdzić.",
+      "heading8": "8. Dostęp do Twoich zleceń kupna i historii dostaw",
+      "p8": "Aby zarządzać zamówieniami i śledzić zakupy, kliknij ikonę swojego profilu w prawym górnym rogu. Rozwijane menu zapewnia dostęp do 'Buy orders' (dla aktywnych zleceń), 'Delivery' (do śledzenia bieżących zakupów/wypłat) oraz 'Transactions' (dla historii).",
+      "heading9": "9. Zarządzanie aktywnymi zleceniami kupna",
+      "p9": "Strona 'Buy orders' zawiera listę wszystkich Twoich aktywnych zleceń kupna. Dla każdego przedmiotu (np. MP7 Short Oche, Galil AR Robin's Egg) możesz zobaczyć ustawioną przez siebie cenę, status realizacji (np. '0/1 filled' - zrealizowano 0/1) oraz opcje 'Edit price' (Edytuj cenę) lub usunięcia zlecenia.",
+      "heading10": "10. Przeglądanie historii transakcji",
+      "p10": "Strona 'Transactions' oferuje kompleksową historię. W zakładce 'Deals' (Transakcje) możesz filtrować i przeglądać wszystkie swoje zakupy i sprzedaże. To tutaj sprawdzisz ostateczny status wymian: 'Accepted' (Zaakceptowane), automatycznie 'Refunded' (Zwrócone, jeśli wymiana się nie powiedzie) lub 'Canceled' (Anulowane).",
+      "heading11": "11. Śledzenie dostaw na żywo",
+      "p11": "Dedykowana strona 'Delivery' (Dostawa, dostępna z menu profilu) pozwala na śledzenie wszystkich bieżących wypłat. Przedmioty gotowe do dostarczenia pokażą nazwę bota oraz przyciski akceptacji 'In browser' lub 'In Steam App'. Przedmioty ze wstrzymaniem bezpieczeństwa (hold) lub w trakcie transferu będą wyświetlać pozostały limit czasu (np. '2d 23h 30m')."
+    }
+  }
+}

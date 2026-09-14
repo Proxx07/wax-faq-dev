@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "Satıcı eşyayı alıcıya göndermezse ne olur?",
+    "content": {
+      "p1": "Çok basit, satıcı süre dolmadan eşyayı alıcıya göndermezse işlemleri iptal edilir. Tarafımızdan gönderilen takas otomatik olarak iptal edilecek, alıcıya para iadesi yapılacak ve listeleme kaldırılacaktır (tekrar listelenebilirler). Ancak, takasları sürekli olarak kabul etmeyerek veya reddederek satıcıları ve/veya alıcıları trolleyip iade sistemini kötüye kullanan kullanıcılar bazı sonuçlarla karşılaşabilir."
+    }
+  }
+}

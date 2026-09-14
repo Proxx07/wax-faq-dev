@@ -2,6 +2,7 @@
 import type { I18nModuleType } from '@/composables/useModuleI18n';
 import { link, tick } from '@/assets/icons/actions';
 import { arrowLeft } from '@/assets/icons/arrows';
+import { FeedBackForm, NotFound } from '@/components/content';
 import { Button, TagRenderer, VIcon } from '@/components/ui';
 import { useModuleI18n } from '@/composables/useModuleI18n';
 import { usePage } from '@/composables/usePage';
@@ -24,6 +25,19 @@ const copyHandler = async () => {
   await copy(urlForCopy.href);
   $toast.success('Link copied to clipboard');
 };
+
+const title = computed(() => {
+  if (!PageContent) return 'Page not found';
+  if (!PageContent.length) return 'Coming soon';
+  return t(`${slug}.title`);
+});
+
+useSeoMeta({
+  title: title.value,
+  ogTitle: title.value,
+  description: title.value,
+  ogDescription: title.value,
+});
 </script>
 
 <template>
@@ -44,7 +58,7 @@ const copyHandler = async () => {
     />
     <div class="headline">
       <h1 v-if="PageContent">
-        {{ PageContent.length ? t(`${slug}.title`) : "Coming soon" }}
+        {{ title }}
       </h1>
 
       <span
@@ -56,29 +70,7 @@ const copyHandler = async () => {
       </span>
     </div>
 
-    <div v-if="!PageContent" class="error">
-      <div class="font-48-sb">
-        404
-      </div>
-
-      <div class="font-24-m">
-        Page not found
-      </div>
-
-      <div class="font-18-n color-on-surface-tertiary">
-        Unfortunately, the page you requested has been deleted or moved.
-      </div>
-
-      <Button
-        :icon-left="arrowLeft"
-        severity="secondary"
-        variant="ghost"
-        button-type="nuxt-link"
-        to="/"
-        label="Back to main"
-        class="ml-auto mr-auto"
-      />
-    </div>
+    <NotFound v-if="!PageContent" :title="title" />
 
     <div v-else-if="PageContent.length" class="page-content">
       <TagRenderer
@@ -87,6 +79,8 @@ const copyHandler = async () => {
         :node="node"
       />
     </div>
+
+    <FeedBackForm v-if="PageContent?.length" :title="title" />
   </div>
 </template>
 
@@ -148,11 +142,5 @@ const copyHandler = async () => {
 }
 .mb-1 {
   margin-bottom: 1rem;
-}
-.error {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 2.6rem;
 }
 </style>

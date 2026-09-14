@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "¿Qué pasa si el vendedor no envía el artículo al comprador?",
+    "content": {
+      "p1": "Es simple, si el vendedor no envía el artículo al comprador antes de que termine el temporizador, su transacción se cancela. El intercambio enviado por nosotros se cancelará automáticamente, se reembolsará al comprador y el anuncio se eliminará (se puede volver a publicar). Pero los usuarios que abusan del sistema de reembolsos trolleando a vendedores y/o compradores al no aceptar o rechazar intercambios constantemente pueden enfrentar consecuencias."
+    }
+  }
+}

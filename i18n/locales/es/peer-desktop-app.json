@@ -1,0 +1,16 @@
+{
+  "peer-desktop-app": {
+    "title": "Todo sobre la aplicación de escritorio de WaxPeer",
+    "content": {
+      "p1": "La aplicación de escritorio de WaxPeer (WaxPeer App) se puede descargar para Windows, Mac o Linux a través de app.waxpeer.com",
+      "p2": "Después de descargarla, debes iniciar sesión con tu cuenta de Steam, utilizando tu nombre de usuario, contraseña y código de Steam Guard.",
+      "p3": "Para vender, debes insertar tu clave de API de Steam y el enlace de intercambio en la configuración. Luego, puedes elegir y vender las skins que desees a través de WaxPeer (waxpeer.com), y el resto se puede hacer simplemente a través de la WaxPeer App.",
+      "p4": "En la página de configuración, también puedes elegir si deseas recibir notificaciones de la aplicación o no, si deseas que la aplicación se ejecute automáticamente tan pronto como se inicie tu computadora o no, y si deseas que acepte automáticamente los regalos (intercambios) entrantes en Steam.",
+      "p5": "WaxPeer App no solo te ayuda a vender, sino que también facilita aún más la venta y la gestión de tu(s) cuenta(s). También puedes conectar tus otras cuentas a WaxPeer App para gestionarlas todas a la vez a través de la aplicación, fácilmente. Todo lo que necesitas hacer es presionar el botón 'agregar más' (add more) e iniciar sesión con tu(s) otra(s) cuenta(s). Más tarde, puedes eliminar estas cuentas presionando la 'X' junto a ellas y volver a agregarlas cuando quieras. No hay límites sobre la cantidad de cuentas que puedes agregar como máximo.",
+      "p6": "También puedes usar WaxPeer App para ver tu saldo, retirar fondos y ver tus estados.",
+      "p7": "También puedes usar proxy y maFile a través de WaxPeer App:",
+      "p8": "El proxy ayuda a que tus intercambios se envíen a través de una dirección IP diferente, lo que beneficia a los vendedores que venden desde varias cuentas.",
+      "p9": "MaFile es para traders/vendedores más avanzados, automatiza completamente tus intercambios. Pero debes tener cuidado porque requiere un autenticador de escritorio de Steam y hay muchos autenticadores falsos (phishing, roban tu información) en línea. No recomendaríamos usar maFile si no tienes experiencia."
+    }
+  }
+}

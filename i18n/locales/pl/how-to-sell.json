@@ -1,0 +1,16 @@
+{
+  "how-to-sell": {
+    "title": "Jak sprzedawać na WaxPeer",
+    "content": {
+      "p1": "Sprzedaż jest prosta, jednak istnieje kilka rzeczy, które muszą zostać ustawione, aby móc sprzedawać. Po pierwsze, musisz zapisać swój trade link oraz klucz Steam API w sekcji „Konto Steam” w swoim profilu użytkownika WaxPeer.",
+      "p2": "Po zakończeniu ustawień profilu i rozpoczęciu sprzedaży, musisz przejść do sekcji „Sprzedaj przedmioty” (Sell items). Jeśli masz już zainstalowane rozszerzenie „Waxpeer Extension”, upewnij się, że masz status „Online”. Jeśli wszystko przebiegło pomyślnie, po lewej stronie strony zobaczysz komunikat „Sprzedaż dostępna” (Sales available). Jeśli nie masz rozszerzenia, musisz pobrać nasze rozszerzenie lub aplikację, abyśmy mogli zautomatyzować wymiany.",
+      "p3": "Gdy rozszerzenie lub aplikacja będą gotowe do użycia, będzie to wyglądać jak na jednym z przedstawionych obrazków. (Jeśli twoje rozszerzenie ma status „Proszę zalogować się do Steam” (Please log in to Steam), oznacza to, że musisz być zalogowany do Steam na stronach steamcommunity.com i steampowered.com w swojej przeglądarce). Gdy Twój „Status P2P” będzie online (zielony), możesz rozpocząć sprzedaż, wybierając skina, ustalając jego cenę i wystawiając go na sprzedaż.",
+      "p4": "Teraz możesz wybrać przedmioty, które chcesz sprzedać.",
+      "p5": "Podczas ustalania ceny swojej oferty możesz użyć górnych przycisków, aby łatwo ustalić dobrą cenę, która Ci odpowiada.",
+      "p6": "Wszystkie Twoje przedmioty na sprzedaż będą znajdować się w sekcji „Oferty sprzedaży” (Sell offers). W tej sekcji możesz monitorować status swojej oferty, zmienić jej cenę lub ją usunąć.",
+      "p7": "Gdy ktoś zdecyduje się kupić jeden z Twoich wystawionych przedmiotów, otrzymasz powiadomienie na stronie. Jeśli chcesz, możesz również połączyć swojego Discorda i/lub Telegrama z WaxPeer za pomocą ustawień konta, aby otrzymywać powiadomienia również tam, poza samą stroną internetową.",
+      "p8": "Gdy ktoś kupi Twój przedmiot, musisz potwierdzić wymianę wysłaną przez nas za pośrednictwem Twojego konta. Potwierdzenie pojawia się w aplikacji mobilnej Steam, w sekcji „Potwierdzenia” (Confirmations). Po potwierdzeniu przedmiot zostaje wysłany. Gdy tylko kupujący zaakceptuje ofertę wymiany z przedmiotem, na Twoje konto WaxPeer wpłyną środki.",
+      "p9": "Pamiętaj, że możesz sprzedawać tylko przedmioty, które można wymieniać."
+    }
+  }
+}

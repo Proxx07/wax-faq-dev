@@ -1,0 +1,9 @@
+{
+  "history-account": {
+    "title": "Czy można sprawdzić historię mojego konta?",
+    "content": {
+      "p1": "Tak, możesz łatwo przeglądać pełną historię aktywności swojego konta w sekcji Transakcje. Pokazuje ona wszystkie operacje związane z Twoim saldem, sprzedażą, zakupami, wpłatami i wypłatami — wszystko w jednym miejscu.",
+      "p2": "Na stronie Transakcje znajdziesz kilka zakładek: „Wszystkie transakcje” – tutaj możesz zobaczyć pełną historię transakcji, w tym zakupy przedmiotów, sprzedaż, depozyty, wypłaty i zwroty. Każdy wpis wyświetla szczegółowe informacje o operacji, przedmiocie i kwocie. „Sprzedaż” – na tej zakładce znajdują się wszystkie udane sprzedaże przedmiotów wraz z czasem sprzedaży, ceną i zyskiem. „Doładowania” – ta sekcja zawiera historię Twoich wpłat i wypłat, pokazując, kiedy i ile dodałeś lub wypłaciłeś ze swojego salda. Możesz również użyć filtrów po lewej stronie strony, aby posortować swoją historię według gry, typu, przedziału cenowego lub daty — co ułatwia znalezienie dowolnej konkretnej transakcji."
+    }
+  }
+}

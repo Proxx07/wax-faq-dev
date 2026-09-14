@@ -1,0 +1,57 @@
+{
+  "help_center": "帮助中心",
+  "back_to_market": "返回市场",
+  "back_to_market_short": "返回市场",
+  "contact_support": "联系客服",
+  "more_answers": "更多答案",
+
+  "search": "搜索...",
+  "search_block": {
+    "title": "我们能帮您什么？",
+    "description": "指南、教程以及常见问题的解答。<br> 如果您找不到所需内容，请联系我们的支持团队，我们随时为您服务。"
+  },
+
+  "blog": "博客",
+  "api": "API",
+  "extension": "扩展程序",
+  "privacy": "隐私政策",
+  "terms": "使用条款",
+  "language": "语言",
+  "mode": "模式",
+  "change_theme": "更改主题",
+  "change_lang": "更改语言",
+
+  "aside": {
+    "gettingStarted": "新手入门",
+    "buyingSelling": "购买与出售",
+    "fees": "手续费",
+    "other": "其他",
+    "desktopApp": "桌面应用程序",
+    "waxpeerPay": "Waxpeer Pay",
+    "whatIsWaxpeer": "Waxpeer是什么以及它是如何运作的？",
+    "howP2PWorks": "P2P系统是如何运作的？",
+    "howToSell": "如何在Waxpeer上出售？",
+    "howToBuy": "如何在Waxpeer上购买？",
+    "tradeLock": "交易锁定和交易保护",
+    "instantSale": "如何进行即时出售？",
+    "primeTime": "黄金时间是如何运作的？",
+    "holdBalance": "什么是冻结余额？",
+    "sellingFees": "出售手续费",
+    "depositFees": "充值手续费",
+    "withdrawalFees": "提现手续费",
+    "addFunds": "如何在网站上充值？",
+    "referralProgram": "推荐计划是如何运作的？",
+    "sellerNotSending": "如果卖家没有将物品发给买家会怎样？",
+    "contactSupport": "我有一个问题/困难，应该联系谁？",
+    "accountHistory": "有什么方法可以查看我的账户历史记录吗？",
+    "scammed": "使用Waxpeer有可能被骗吗？",
+    "desktopAppInfo": "关于Waxpeer桌面应用程序的所有信息",
+    "depositSkinsWaxpeerPay": "如何通过Waxpeer Pay存入饰品"
+  },
+
+  "toast": {
+    "error": "错误",
+    "attention": "注意",
+    "success": "成功"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "如何在WaxPeer上购买：分步指南",
+    "content": {
+      "heading1": "1. 立即购买：查找物品及价格详情",
+      "p1": "在市场上找到您想要的物品（例如：Butterfly Knife Doppler）。当您将鼠标悬停在它上面时，您会看到它的详细信息：物品名称、磨损值（Float Value，如FN 0.02342）、建议价格（带有Steam图标，如$2045.35）、卖家当前的出售价格（$12,046.34）以及折扣百分比（如-30%）。要立即购买，请点击蓝色的“Buy now”（立即购买）按钮。",
+      "heading2": "2. 购买状态：正在处理交易",
+      "p2": "立即购买后，将出现“Withdrawal status”（提取状态）窗口。它确认了您购买的物品（Butterfly Knife Doppler, $12,046.34）并显示交易状态。最初，在准备发货时，系统会显示“Processing the trade”（正在处理交易）。",
+      "heading3": "3. 加入购物车 vs. 立即购买",
+      "p3": "这张图片展示了一个物品（M9 Bayonet Lore）的两种选择。您可以点击蓝色的“Buy now”按钮进行立即购买，或者点击旁边的购物车图标将物品添加到购物车，并继续浏览以购买多个物品。",
+      "heading4": "4. 从购物车中购买多个物品",
+      "p4": "要一次性购买多个选定的物品，请点击网站右上角的购物车图标。购物车下拉菜单将显示所有添加的物品（如Sport Gloves, Karambit, M9 Bayonet）及总价（如3件物品共$8,215.76）。点击绿色的“Purchase”（购买/结账）按钮以完成批量订单。",
+      "heading5": "5. 购买状态：准备接受交易",
+      "p5": "随着系统处理您的购买请求，“Withdrawal status”窗口会进行更新。对于准备好交付的物品，您会看到接受交易报价的按钮：“Accept in browser”（在浏览器中接受）或“In Steam App”（在Steam应用中接受）。其他状态可能包括“Processing the trade”或因安全检查而显示的“Completed and placed on hold”（已完成并暂挂）。",
+      "heading6": "6. 发起求购订单（Buy Order）",
+      "p6": "要为某件物品设定低于当前报价的目标购买价格，请导航至该物品的详情页面。在价格图表下方，选择“Similar orders”（类似订单）下的“Purchase orders”（求购订单）选项卡，然后点击蓝色的“+ Create order”（+ 创建订单）按钮。",
+      "heading7": "7. 设置求购订单参数",
+      "p7": "“New order”（新订单）弹出窗口允许您定义求购订单。输入所需的Price（价格）和想要购买的Max quantity（最大数量）。这里会显示一个重要提示：“Buy orders do not filter skins by phase”（求购订单不会按阶段过滤饰品），这意味着如果价格匹配，您同意接收任何阶段/相位的饰品。点击“Create purchase order”（创建求购订单）进行提交。",
+      "heading8": "8. 访问您的求购订单和交付历史",
+      "p8": "要管理您的订单并跟踪购买情况，请点击右上角的个人资料图标。下拉菜单提供了对“Buy orders”（查看有效订单）、“Delivery”（跟踪当前购买/提取）和“Transactions”（查看历史记录）的访问。",
+      "heading9": "9. 管理有效的求购订单",
+      "p9": "“Buy orders”页面列出了您所有有效的求购订单。对于每件物品（例如：MP7 Short Oche, Galil AR Robin's Egg），您可以看到您设定的价格、完成状态（例如：“0/1 filled”- 已完成0/1）以及“Edit price”（编辑价格）或删除订单的选项。",
+      "heading10": "10. 查看交易历史记录",
+      "p10": "“Transactions”页面提供了全面的历史记录。在“Deals”（交易）选项卡下，您可以筛选并查看所有的购买和出售记录。在这里您可以确认交易的最终状态：“Accepted”（已接受）、自动“Refunded”（已退款，如果交易失败）或“Canceled”（已取消）。",
+      "heading11": "11. 跟踪实时交付",
+      "p11": "专用的“Delivery”页面（可通过您的个人资料菜单访问）允许您跟踪当前所有的提取操作。准备好交付的物品将显示机器人的名称以及“In browser”或“In Steam App”接受按钮。处于安全锁定或转移中的物品将显示剩余的时间限制（例如：“2d 23h 30m”）。"
+    }
+  }
+}

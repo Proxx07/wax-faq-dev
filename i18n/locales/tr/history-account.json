@@ -1,0 +1,9 @@
+{
+  "history-account": {
+    "title": "Hesabımın geçmişini görmenin bir yolu var mı?",
+    "content": {
+      "p1": "Evet, hesap etkinliğinizin tam geçmişini İşlemler bölümünde kolayca görüntüleyebilirsiniz. Bakiyeniz, satışlarınız, satın alımlarınız, para yatırma ve çekme işlemlerinizle ilgili tüm operasyonları tek bir yerde gösterir.",
+      "p2": "İşlemler sayfasında birkaç sekme bulacaksınız: \"Tüm işlemler\" – burada eşya satın alımları, satışlar, para yatırmalar, para çekmeler ve iadeler dahil olmak üzere tüm işlem geçmişinizi görebilirsiniz. Her girdi, operasyon, eşya ve miktar hakkında ayrıntılı bilgi görüntüler. \"Satışlar\" – bu sekme, satış zamanı, fiyat ve kar ile birlikte tüm başarılı eşya satışlarınızı listeler. \"Yenilemeler\" – bu bölüm, bakiyenize ne zaman ve ne kadar eklediğinizi veya çektiğinizi gösteren para yatırma ve çekme geçmişinizi içerir. Ayrıca, geçmişinizi oyun, tür, fiyat aralığı veya tarihe göre sıralamak için sayfanın sol tarafındaki filtreleri kullanabilirsiniz; bu da herhangi bir belirli işlemi bulmayı kolaylaştırır."
+    }
+  }
+}

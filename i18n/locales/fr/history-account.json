@@ -1,0 +1,9 @@
+{
+  "history-account": {
+    "title": "Y a-t-il un moyen de voir l'historique de mon compte ?",
+    "content": {
+      "p1": "Oui, vous pouvez facilement consulter l'historique complet de l'activité de votre compte dans la section Transactions. Elle affiche toutes les opérations liées à votre solde, vos ventes, vos achats, vos dépôts et vos retraits — tout en un seul endroit.",
+      "p2": "Sur la page Transactions, vous trouverez plusieurs onglets : « Toutes les transactions » – vous y verrez l'historique complet de vos transactions, y compris les achats d'articles, les ventes, les dépôts, les retraits et les remboursements. Chaque entrée affiche des informations détaillées sur l'opération, l'article et le montant. « Ventes » – cet onglet répertorie toutes vos ventes d'articles réussies avec l'heure de la vente, le prix et le bénéfice. « Recharges » – cette section contient l'historique de vos dépôts et retraits, indiquant quand et combien vous avez ajouté ou retiré de votre solde. Vous pouvez également utiliser les filtres sur le côté gauche de la page pour trier votre historique par jeu, type, tranche de prix ou date — ce qui facilite la recherche d'une transaction spécifique."
+    }
+  }
+}

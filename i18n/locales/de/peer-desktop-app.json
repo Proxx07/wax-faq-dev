@@ -1,0 +1,16 @@
+{
+  "peer-desktop-app": {
+    "title": "Alles über die WaxPeer Desktop-App",
+    "content": {
+      "p1": "Die WaxPeer Desktop-Anwendung (WaxPeer App) kann für Windows, Mac oder Linux über app.waxpeer.com heruntergeladen werden.",
+      "p2": "Nach dem Herunterladen sollten Sie sich mit Ihrem Steam-Konto anmelden, indem Sie Ihren Benutzernamen, Ihr Passwort und Ihren Steam Guard-Code verwenden.",
+      "p3": "Um zu verkaufen, sollten Sie Ihren Steam-API-Schlüssel und Ihren Trade-Link in den Einstellungen einfügen. Danach können Sie die gewünschten Skins über WaxPeer (waxpeer.com) auswählen und verkaufen, und der Rest kann einfach über die WaxPeer App erledigt werden.",
+      "p4": "Auf der Einstellungsseite können Sie auch auswählen, ob Sie Benachrichtigungen von der Anwendung erhalten möchten oder nicht, ob die Anwendung automatisch ausgeführt werden soll, sobald Ihr Computer gestartet wird, und ob sie eingehende Geschenke (Trades) auf Steam automatisch annehmen soll.",
+      "p5": "Die WaxPeer App hilft Ihnen nicht nur beim Verkauf, sondern macht das Verkaufen und die Verwaltung Ihrer Konten noch einfacher. Sie können auch Ihre anderen Konten mit der WaxPeer App verbinden, um sie alle gleichzeitig und einfach über die Anwendung zu verwalten. Alles, was Sie tun müssen, ist die Schaltfläche „Weitere hinzufügen“ (add more) zu drücken und sich über Ihre(n) anderen Account(s) anzumelden. Sie können diese Konten später entfernen, indem Sie auf das „X“ daneben klicken, und sie jederzeit wieder hinzufügen. Es gibt keine Begrenzung, wie viele Konten Sie maximal hinzufügen können.",
+      "p6": "Sie können die WaxPeer App auch verwenden, um Ihr Guthaben anzuzeigen, Geld abzuheben und Ihre Status einzusehen.",
+      "p7": "Sie können über die WaxPeer App auch Proxys und maFile verwenden:",
+      "p8": "Ein Proxy hilft dabei, Ihre Trades über eine andere IP-Adresse zu senden, was Verkäufern zugutekommt, die von mehreren Konten aus verkaufen.",
+      "p9": "MaFile ist für fortgeschrittenere Händler/Verkäufer gedacht und automatisiert Ihre Trades vollständig. Sie sollten jedoch vorsichtig sein, da ein Steam-Desktop-Authenticator erforderlich ist und online viele gefälschte Authenticatoren (Phishing, stiehlt Ihre Informationen) im Umlauf sind. Wir empfehlen die Verwendung von maFile nicht, wenn Sie nicht erfahren sind."
+    }
+  }
+}

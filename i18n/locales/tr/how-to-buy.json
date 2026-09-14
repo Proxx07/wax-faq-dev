@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "WaxPeer'da Nasıl Satın Alınır: Adım Adım Kılavuz",
+    "content": {
+      "heading1": "1. Anında Satın Alma: Bir Eşya ve Fiyat Ayrıntılarını Bulma",
+      "p1": "Pazaryerinde istediğiniz eşyayı bulun (örneğin, Butterfly Knife Doppler). Üzerine geldiğinizde ayrıntılı bilgilerini göreceksiniz: eşyanın adı, Float Değeri (FN 0.02342), önerilen fiyat (Steam simgesiyle, örn. $2045.35), satıcının mevcut satış fiyatı ($12,046.34) ve indirim yüzdesi (örn. -%30). Hemen satın almak için mavi 'Buy now' (Şimdi satın al) düğmesine tıklayın.",
+      "heading2": "2. Satın Alma Durumu: Takas İşleniyor",
+      "p2": "Anında satın alma işleminden sonra 'Withdrawal status' (Çekim durumu) penceresi görünecektir. Satın aldığınız eşyayı (Butterfly Knife Doppler, $12,046.34) onaylar ve takas durumunu gösterir. Eşya teslimat için hazırlanırken sistem başlangıçta 'Processing the trade' (Takas işleniyor) gösterecektir.",
+      "heading3": "3. Sepete Ekleme ve Şimdi Satın Alma",
+      "p3": "Bu görsel, bir eşya (M9 Bayonet Lore) için iki seçeneği göstermektedir. Anında satın almak için mavi 'Buy now' düğmesine tıklayabilir veya eşyayı sepetinize eklemek ve birden fazla eşya için gezinmeye devam etmek üzere yanındaki sepet simgesine tıklayabilirsiniz.",
+      "heading4": "4. Sepetten Birden Fazla Eşya Satın Alma",
+      "p4": "Seçilen birden fazla eşyayı tek seferde satın almak için web sitesinin sağ üst köşesindeki sepet simgesine tıklayın. Sepet açılır menüsü eklenen tüm eşyaları (örn. Sport Gloves, Karambit, M9 Bayonet) ve toplam fiyatı (örn. 3 eşya için $8,215.76) gösterecektir. Toplu siparişi tamamlamak için yeşil 'Purchase' (Satın Al) düğmesine tıklayın.",
+      "heading5": "5. Satın Alma Durumu: Takası Kabul Etmeye Hazır",
+      "p5": "Sistem satın alımlarınızı işlerken 'Withdrawal status' penceresi güncellenir. Teslimata hazır eşyalar için takas teklifini kabul etme düğmelerini göreceksiniz: 'Accept in browser' (Tarayıcıda kabul et) veya 'In Steam App' (Steam Uygulamasında). Diğer durumlar arasında 'Processing the trade' (Takas işleniyor) veya güvenlik kontrolleri için 'Completed and placed on hold' (Tamamlandı ve beklemeye alındı) bulunur.",
+      "heading6": "6. Bir Alış Emri (Buy Order) Başlatma",
+      "p6": "Bir eşya için mevcut tekliflerden daha düşük bir hedef fiyat belirlemek için eşyanın detay sayfasına gidin. Fiyat grafiğinin altında, 'Similar orders' (Benzer siparişler) altındaki 'Purchase orders' (Alış siparişleri) sekmesini seçin ve mavi '+ Create order' (+ Sipariş oluştur) düğmesine tıklayın.",
+      "heading7": "7. Alış Emri Parametrelerini Ayarlama",
+      "p7": "'New order' (Yeni sipariş) açılır penceresi, alış siparişinizi tanımlamanıza olanak tanır. İstenilen Price (Fiyat) ve satın almak istediğiniz Max quantity (Maksimum miktar) değerlerini girin. Kritik bir not görüntülenir: 'Buy orders do not filter skins by phase' (Alış emirleri skinleri aşamaya/faza göre filtrelemez), yani fiyatınıza uyuyorsa skini herhangi bir aşamada almayı kabul edersiniz. Göndermek için 'Create purchase order'a tıklayın.",
+      "heading8": "8. Alış Emirlerinize ve Teslimat Geçmişinize Erişme",
+      "p8": "Siparişlerinizi yönetmek ve satın alımları takip etmek için sağ üst köşedeki profil simgenize tıklayın. Açılır menü 'Buy orders' (aktif siparişler için), 'Delivery' (mevcut satın alımları/çekimleri takip etmek için) ve 'Transactions' (geçmiş için) erişim sağlar.",
+      "heading9": "9. Aktif Alış Emirlerini Yönetme",
+      "p9": "'Buy orders' sayfası, tüm aktif alış emirlerinizi listeler. Her eşya için (örn. MP7 Short Oche, Galil AR Robin's Egg), belirlediğiniz fiyatı, doluluk durumunu (örn. '0/1 filled' - 0/1 dolduruldu) ve 'Edit price' (Fiyatı düzenle) veya siparişi silme seçeneklerini görebilirsiniz.",
+      "heading10": "10. İşlem Geçmişini İnceleme",
+      "p10": "'Transactions' (İşlemler) sayfası kapsamlı bir geçmiş sunar. 'Deals' (Fırsatlar/İşlemler) sekmesi altında tüm satın alma ve satışlarınızı filtreleyebilir ve inceleyebilirsiniz. Takasların son durumunu buradan onaylarsınız: 'Accepted' (Kabul edildi), otomatik olarak 'Refunded' (İade edildi, bir takas başarısız olursa) veya 'Canceled' (İptal edildi).",
+      "heading11": "11. Canlı Teslimatları Takip Etme",
+      "p11": "Özel 'Delivery' (Teslimat) sayfası (profil menünüzden erişilebilir), tüm mevcut çekimleri takip etmenizi sağlar. Teslimata hazır eşyalar botun adını ve 'In browser' veya 'In Steam App' kabul düğmelerini gösterecektir. Güvenlik bekletmesinde (hold) veya transferde olan eşyalar kalan bir süre sınırı (örn. '2d 23h 30m') görüntüleyecektir."
+    }
+  }
+}

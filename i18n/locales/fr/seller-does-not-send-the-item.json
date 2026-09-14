@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "Que se passe-t-il si le vendeur n'envoie pas l'article à l'acheteur ?",
+    "content": {
+      "p1": "C'est simple, si le vendeur n'envoie pas l'article à l'acheteur avant la fin du chronomètre, leur transaction est annulée. L'échange que nous avons envoyé sera automatiquement annulé, l'acheteur sera remboursé et l'annonce sera supprimée (elle peut être remise en vente). Mais les utilisateurs qui abusent du système de remboursement en trollant les vendeurs et/ou les acheteurs en n'acceptant pas ou en refusant constamment les échanges peuvent en subir les conséquences."
+    }
+  }
+}

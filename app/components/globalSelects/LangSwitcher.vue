@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { LocaleItemType } from '~~/i18n/types';
 import { chevronRight } from '@/assets/icons/arrows';
-import { russia, unitedStates } from '@/assets/icons/flags';
+import { china, france, germany, poland, russia, spain, turkey, ukraine, unitedStates } from '@/assets/icons/flags';
 import { Button, DropDown, Modal, RadioButton, VIcon } from '@/components/ui';
 
 const {
@@ -16,6 +16,13 @@ const { t, locales, locale, setLocale } = useI18n();
 const flagsMap: Record<LocaleItemType['code'], string> = {
   ru: russia,
   en: unitedStates,
+  ua: ukraine,
+  pl: poland,
+  es: spain,
+  fr: france,
+  zh: china,
+  tr: turkey,
+  de: germany,
 };
 const setLocaleHandler = async (value: LocaleItemType['code']) => {
   await setLocale(value);

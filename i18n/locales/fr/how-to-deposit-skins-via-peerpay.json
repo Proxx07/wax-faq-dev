@@ -1,0 +1,18 @@
+{
+  "how-to-deposit-skins-via-peerpay": {
+    "title": "Comment déposer des skins via WaxPeer Pay",
+    "content": {
+      "p1": "Lorsque vous accédez au site pour la première fois, vous aurez très probablement cet écran et ne pourrez pas vendre :",
+      "p2": "Pour vendre votre skin, vous devez tout d'abord installer et configurer notre extension (si le statut indique « assurez-vous d'être connecté à Steam », cela signifie que vous devez vous connecter à steamcommunity.com et steampowered.com sur votre navigateur).",
+      "p3": "Une fois que vous avez tout configuré et que vous êtes prêt à vendre, votre page ressemblera à ceci :",
+      "p4": "Ensuite, vous devez configurer votre API Steam et votre lien d'échange (Trade link) dans la section « Paramètres » et enregistrer. Notez que la clé API ne peut pas être utilisée pour créer des échanges et vous devez TOUJOURS garder votre API Steam configurée sur notre site à jour. Vous pouvez également connecter votre Discord et/ou Telegram pour y être notifié lorsque quelqu'un achète votre article.",
+      "p5": "Ensuite, pour que vos articles s'affichent, vous devez actualiser votre inventaire. Vos skins échangeables et éligibles seront alors affichés.",
+      "p6": "Une fois que vous avez cliqué sur l'article, vous pouvez fixer votre propre prix.",
+      "p7": "Vous pouvez fixer votre propre prix, mais si vous le souhaitez, vous pouvez également choisir la méthode instantanée. La méthode instantanée vous donnera un prix inférieur qui correspond à l'ordre d'achat le plus élevé, vendant ainsi votre article instantanément. Notez que si le propriétaire de cet ordre d'achat n'est pas en ligne, il ne s'activera pas.",
+      "p8": "À partir de ce moment, vous attendrez un acheteur. Ce n'est pas un dépôt direct sur le site, c'est plutôt une vente de votre ou vos skins, mais l'argent que vous obtenez est déposé sur le site. Une fois que quelqu'un aura acheté votre ou vos skins, vous en serez informé sur le site, et si vous les avez connectés, sur Discord et Telegram.",
+      "p9": "Une fois votre skin acheté, notre extension (ou application, selon celle que vous utilisez - les deux fonctionnent) créera l'échange pour vous et il vous suffira de le confirmer via Steam Guard. Assurez-vous qu'il n'y a pas d'échanges en double et que vous confirmez le bon échange.",
+      "p10": "De plus, ce petit symbole à côté du nom du marchand signifie que le marchand (site) sur lequel vous effectuez un dépôt est vérifié par nos soins.",
+      "p11": "Une fois l'article livré à l'acheteur avec succès, vous recevrez vos pièces/argent sur le site sur lequel vous effectuez un dépôt dans les 5 minutes (de courts retards peuvent survenir dans de rares cas). Bonne chance !"
+    }
+  }
+}

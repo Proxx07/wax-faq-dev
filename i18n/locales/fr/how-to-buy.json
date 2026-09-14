@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "Comment acheter sur WaxPeer : Guide étape par étape",
+    "content": {
+      "heading1": "1. Achat instantané : Trouver un article et détails des prix",
+      "p1": "Trouvez l'article que vous souhaitez sur le marché (ex. Butterfly Knife Doppler). En le survolant, vous verrez ses informations détaillées : le nom de l'article, le Float Value (FN 0.02342), le prix suggéré (avec l'icône Steam, ex. 2045,35 $), le prix de vente actuel du vendeur (12 046,34 $) et le pourcentage de réduction (ex. -30 %). Pour acheter immédiatement, cliquez sur le bouton bleu 'Buy now' (Acheter maintenant).",
+      "heading2": "2. Statut de l'achat : Traitement de l'échange",
+      "p2": "Après un achat instantané, la fenêtre 'Withdrawal status' (Statut de retrait) apparaîtra. Elle confirme l'article que vous avez acheté (Butterfly Knife Doppler, 12 046,34 $) et indique le statut de l'échange. Initialement, le système affichera 'Processing the trade' (Traitement de l'échange) pendant que l'article est en cours de préparation pour la livraison.",
+      "heading3": "3. Ajouter au panier vs. Acheter maintenant",
+      "p3": "Cette image montre deux options pour un article (M9 Bayonet Lore). Vous pouvez soit cliquer sur le bouton bleu 'Buy now' pour acheter instantanément, soit cliquer sur l'icône du panier à côté pour ajouter l'article à votre panier et continuer à parcourir d'autres articles.",
+      "heading4": "4. Acheter plusieurs articles depuis le panier",
+      "p4": "Pour acheter plusieurs articles sélectionnés à la fois, cliquez sur l'icône du panier dans le coin supérieur droit du site. Le menu déroulant du panier affichera tous les articles ajoutés (ex. Sport Gloves, Karambit, M9 Bayonet) et le prix total (ex. 8 215,76 $ pour 3 articles). Cliquez sur le bouton vert 'Purchase' (Acheter) pour finaliser la commande groupée.",
+      "heading5": "5. Statut de l'achat : Prêt à accepter l'échange",
+      "p5": "Au fur et à mesure que le système traite vos achats, la fenêtre 'Withdrawal status' se met à jour. Pour les articles prêts à être livrés, vous verrez des boutons pour accepter l'offre d'échange : 'Accept in browser' (Accepter dans le navigateur) ou 'In Steam App' (Dans l'application Steam). Les autres statuts incluent 'Processing the trade' ou 'Completed and placed on hold' (Terminé et mis en attente) pour des vérifications de sécurité.",
+      "heading6": "6. Lancer un ordre d'achat (Buy Order)",
+      "p6": "Pour fixer un prix cible pour un article inférieur aux offres actuelles, accédez à la page détaillée de l'article. Sous le graphique des prix, sélectionnez l'onglet 'Purchase orders' (Ordres d'achat) sous 'Similar orders' (Commandes similaires) et cliquez sur le bouton bleu '+ Create order' (+ Créer un ordre).",
+      "heading7": "7. Paramétrage de l'ordre d'achat",
+      "p7": "La fenêtre contextuelle 'New order' (Nouvel ordre) vous permet de définir votre ordre d'achat. Entrez le Price (Prix) souhaité et la Max quantity (Quantité maximale) d'articles que vous voulez acheter. Une note importante s'affiche : 'Buy orders do not filter skins by phase' (Les ordres d'achat ne filtrent pas les skins par phase), ce qui signifie que vous acceptez de recevoir le skin dans n'importe quelle phase s'il correspond à votre prix. Cliquez sur 'Create purchase order' pour valider.",
+      "heading8": "8. Accéder à vos ordres d'achat et à l'historique des livraisons",
+      "p8": "Pour gérer vos commandes et suivre vos achats, cliquez sur l'icône de votre profil dans le coin supérieur droit. Le menu déroulant permet d'accéder à 'Buy orders' (pour les ordres actifs), 'Delivery' (pour suivre les achats/retraits en cours) et 'Transactions' (pour l'historique).",
+      "heading9": "9. Gérer les ordres d'achat actifs",
+      "p9": "La page 'Buy orders' liste tous vos ordres d'achat actifs. Pour chaque article (ex. MP7 Short Oche, Galil AR Robin's Egg), vous pouvez voir le prix que vous avez fixé, le statut de remplissage (ex. '0/1 filled' - 0/1 rempli) et les options 'Edit price' (Modifier le prix) ou supprimer l'ordre.",
+      "heading10": "10. Consulter l'historique des transactions",
+      "p10": "La page 'Transactions' offre un historique complet. Dans l'onglet 'Deals' (Transactions), vous pouvez filtrer et examiner tous vos achats et ventes. C'est ici que vous confirmez le statut final des échanges : 'Accepted' (Accepté), automatiquement 'Refunded' (Remboursé, si un échange échoue), ou 'Canceled' (Annulé).",
+      "heading11": "11. Suivre les livraisons en direct",
+      "p11": "La page dédiée 'Delivery' (accessible via le menu de votre profil) vous permet de suivre tous les retraits en cours. Les articles prêts pour la livraison afficheront le nom du bot et les boutons d'acceptation 'In browser' ou 'In Steam App'. Les articles en attente de sécurité (hold) ou en cours de transfert afficheront un compte à rebours (ex. '2d 23h 30m')."
+    }
+  }
+}

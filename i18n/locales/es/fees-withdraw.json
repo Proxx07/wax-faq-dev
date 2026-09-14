@@ -1,0 +1,8 @@
+{
+  "fees-withdraw": {
+    "title": "Comisiones de retiro",
+    "content": {
+      "p1": "Las comisiones de retiro pueden ser diferentes para distintos métodos. Una vez que selecciones una de las opciones, podrás ver su comisión."
+    }
+  }
+}

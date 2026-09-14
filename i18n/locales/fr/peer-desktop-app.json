@@ -1,0 +1,16 @@
+{
+  "peer-desktop-app": {
+    "title": "Tout sur l'application de bureau WaxPeer",
+    "content": {
+      "p1": "L'application de bureau WaxPeer (WaxPeer App) peut être téléchargée pour Windows, Mac ou Linux via app.waxpeer.com",
+      "p2": "Après le téléchargement, vous devez vous connecter avec votre compte Steam, en utilisant votre nom d'utilisateur, votre mot de passe et votre code Steam Guard.",
+      "p3": "Pour vendre, vous devez insérer votre clé API Steam et votre lien d'échange dans les paramètres. Ensuite, vous pouvez choisir et vendre les skins que vous souhaitez via WaxPeer (waxpeer.com), et le reste peut se faire simplement via la WaxPeer App.",
+      "p4": "Sur la page des paramètres, vous pouvez également choisir si vous souhaitez ou non recevoir des notifications de l'application, si vous souhaitez que l'application s'exécute automatiquement dès l'ouverture de votre ordinateur ou non, et si vous souhaitez qu'elle accepte automatiquement les cadeaux (échanges) entrants sur Steam.",
+      "p5": "WaxPeer App ne vous aide pas seulement à vendre, mais rend également la vente et la gestion de vos comptes encore plus faciles. Vous pouvez également connecter vos autres comptes à WaxPeer App afin de tous les gérer en même temps via l'application, en toute simplicité. Il vous suffit d'appuyer sur le bouton « ajouter plus » (add more) et de vous connecter avec votre ou vos autres comptes. Vous pourrez par la suite supprimer ces comptes en appuyant sur le « X » situé à côté d'eux, et les rajouter quand vous le souhaitez. Il n'y a pas de limite au nombre de comptes que vous pouvez ajouter au maximum.",
+      "p6": "Vous pouvez également utiliser WaxPeer App pour consulter votre solde, retirer des fonds et voir vos statuts.",
+      "p7": "Vous pouvez également utiliser un proxy et maFile via la WaxPeer App :",
+      "p8": "Le proxy permet d'envoyer vos échanges via une adresse IP différente, ce qui est avantageux pour les vendeurs qui vendent depuis plusieurs comptes.",
+      "p9": "MaFile est destiné aux traders/vendeurs plus avancés, il automatise entièrement vos échanges. Mais vous devez être prudent car cela nécessite un authentificateur de bureau Steam et il existe de nombreux faux authentificateurs (phishing, qui volent vos informations) en ligne. Nous ne vous recommandons pas d'utiliser maFile si vous n'êtes pas expérimenté."
+    }
+  }
+}

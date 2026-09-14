@@ -1,0 +1,29 @@
+{
+  "how-to-buy": {
+    "title": "Wie man auf WaxPeer kauft: Schritt-für-Schritt-Anleitung",
+    "content": {
+      "heading1": "1. Sofortkauf: Einen Artikel finden und Preisdetails",
+      "p1": "Finden Sie den gewünschten Artikel auf dem Marktplatz (z. B. Butterfly Knife Doppler). Wenn Sie mit der Maus darüber fahren, sehen Sie detaillierte Informationen: den Artikelnamen, den Float Value (FN 0.02342), den empfohlenen Preis (mit dem Steam-Symbol, z. B. $2045.35), den aktuellen Verkaufspreis des Verkäufers ($12.046.34) und den Rabatt in Prozent (z. B. -30%). Um sofort zu kaufen, klicken Sie auf die blaue Schaltfläche 'Buy now' (Jetzt kaufen).",
+      "heading2": "2. Kaufstatus: Handel wird verarbeitet",
+      "p2": "Nach einem Sofortkauf erscheint das Fenster 'Withdrawal status' (Auszahlungsstatus). Es bestätigt den gekauften Artikel (Butterfly Knife Doppler, $12.046.34) und zeigt den Handelsstatus an. Zunächst zeigt das System 'Processing the trade' (Handel wird verarbeitet) an, während der Artikel für die Lieferung vorbereitet wird.",
+      "heading3": "3. In den Warenkorb legen vs. Jetzt kaufen",
+      "p3": "Dieses Bild zeigt zwei Optionen für einen Artikel (M9 Bayonet Lore). Sie können entweder auf die blaue Schaltfläche 'Buy now' klicken, um sofort zu kaufen, oder auf das Warenkorb-Symbol daneben, um den Artikel in den Warenkorb zu legen und nach weiteren Artikeln zu stöbern.",
+      "heading4": "4. Kauf mehrerer Artikel aus dem Warenkorb",
+      "p4": "Um mehrere ausgewählte Artikel auf einmal zu kaufen, klicken Sie auf das Warenkorb-Symbol in der oberen rechten Ecke der Website. Das Dropdown-Menü des Warenkorbs zeigt alle hinzugefügten Artikel (z. B. Sport Gloves, Karambit, M9 Bayonet) und den Gesamtpreis (z. B. $8.215.76 für 3 Artikel) an. Klicken Sie auf die grüne Schaltfläche 'Purchase' (Kaufen), um die Sammelbestellung abzuschließen.",
+      "heading5": "5. Kaufstatus: Bereit zur Annahme des Handels",
+      "p5": "Während das System Ihre Einkäufe verarbeitet, wird das Fenster 'Withdrawal status' aktualisiert. Bei lieferbereiten Artikeln sehen Sie Schaltflächen, um das Handelsangebot anzunehmen: 'Accept in browser' (Im Browser annehmen) oder 'In Steam App' (In der Steam-App). Weitere Status sind 'Processing the trade' oder 'Completed and placed on hold' (Abgeschlossen und zurückgehalten) aufgrund von Sicherheitsprüfungen.",
+      "heading6": "6. Einen Kaufauftrag (Buy Order) initiieren",
+      "p6": "Um einen Zielpreis für einen Artikel festzulegen, der unter den aktuellen Angeboten liegt, navigieren Sie zur Detailseite des Artikels. Wählen Sie unter dem Preisdiagramm die Registerkarte 'Purchase orders' (Kaufaufträge) unter 'Similar orders' (Ähnliche Aufträge) und klicken Sie auf die blaue Schaltfläche '+ Create order' (+ Auftrag erstellen).",
+      "heading7": "7. Einstellen der Parameter für den Kaufauftrag",
+      "p7": "Im Pop-up-Fenster 'New order' (Neuer Auftrag) können Sie Ihren Kaufauftrag definieren. Geben Sie den gewünschten Price (Preis) und die Max quantity (maximale Menge) der Artikel ein, die Sie kaufen möchten. Ein wichtiger Hinweis wird angezeigt: 'Buy orders do not filter skins by phase' (Kaufaufträge filtern Skins nicht nach Phase). Das bedeutet, dass Sie damit einverstanden sind, den Skin in jeder Phase zu erhalten, wenn er Ihrem Preis entspricht. Klicken Sie auf 'Create purchase order', um den Auftrag abzusenden.",
+      "heading8": "8. Zugriff auf Ihre Kaufaufträge und den Lieferverlauf",
+      "p8": "Um Ihre Aufträge zu verwalten und Einkäufe zu verfolgen, klicken Sie auf Ihr Profilsymbol in der oberen rechten Ecke. Das Dropdown-Menü bietet Zugriff auf 'Buy orders' (für aktive Aufträge), 'Delivery' (zur Verfolgung aktueller Einkäufe/Auszahlungen) und 'Transactions' (für den Verlauf).",
+      "heading9": "9. Aktive Kaufaufträge verwalten",
+      "p9": "Die Seite 'Buy orders' listet alle Ihre aktiven Kaufaufträge auf. Für jeden Artikel (z. B. MP7 Short Oche, Galil AR Robin's Egg) sehen Sie Ihren festgelegten Preis, den Erfüllungsstatus (z. B. '0/1 filled' - 0/1 erfüllt) und die Optionen, den Preis zu bearbeiten ('Edit price') oder den Auftrag zu löschen.",
+      "heading10": "10. Überprüfung des Transaktionsverlaufs",
+      "p10": "Die Seite 'Transactions' bietet einen umfassenden Verlauf. Auf der Registerkarte 'Deals' können Sie alle Ihre Käufe und Verkäufe filtern und überprüfen. Hier bestätigen Sie den endgültigen Status von Trades: 'Accepted' (Akzeptiert), automatisch 'Refunded' (Erstattet, falls ein Handel fehlschlägt) oder 'Canceled' (Storniert).",
+      "heading11": "11. Laufende Lieferungen verfolgen",
+      "p11": "Auf der speziellen Seite 'Delivery' (zugänglich über Ihr Profilmenü) können Sie alle aktuellen Auszahlungen verfolgen. Artikel, die zur Lieferung bereit sind, zeigen den Namen des Bots und die Annahmeschaltflächen 'In browser' oder 'In Steam App'. Bei Artikeln, die sich in einer Sicherheitssperre (Hold) oder in der Übertragung befinden, wird eine verbleibende Zeitbeschränkung angezeigt (z. B. '2d 23h 30m')."
+    }
+  }
+}

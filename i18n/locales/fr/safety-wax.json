@@ -1,0 +1,9 @@
+{
+  "safety-wax": {
+    "title": "Est-il possible de se faire arnaquer en utilisant Waxpeer ?",
+    "content": {
+      "p1": "Non, il n'y a aucun moyen de vous faire arnaquer via WaxPeer si votre compte est sécurisé. Mais si vous avez 2 échanges lors de la vente de votre skin, l'un (envoyé par nous) annulé et l'autre (envoyé par l'arnaqueur) envoyé, accepté et en attente de confirmation mobile, cela signifie que les informations de votre compte ont très probablement été volées par des arnaqueurs. À première vue, vous pourriez penser que ces deux échanges ont été envoyés au même compte, mais si vous vérifiez leurs liens de communauté Steam, vous verrez qu'il s'agit de comptes différents. Cela peut être dû à un site de phishing sur lequel vous vous êtes connecté, même si cela fait des années.",
+      "p2": "Nous n'acceptons aucune responsabilité pour de telles choses car ce n'est pas de notre faute. Dans de tels cas, vous devez réinitialiser votre mot de passe Steam, effacer les cookies de votre navigateur et désautoriser tous les appareils de votre compte Steam. Après cela, vous pourrez à nouveau vendre en toute sécurité."
+    }
+  }
+}

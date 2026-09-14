@@ -1,0 +1,8 @@
+{
+  "seller-does-not-send-the-item": {
+    "title": "Co się stanie, jeśli sprzedawca nie wyśle przedmiotu do kupującego?",
+    "content": {
+      "p1": "To proste, jeśli sprzedawca nie wyśle przedmiotu do kupującego przed upływem czasu, ich transakcja zostanie anulowana. Wymiana wysłana przez nas zostanie automatycznie anulowana, kupujący otrzyma zwrot pieniędzy, a oferta zostanie usunięta (można ją wystawić ponownie). Jednak użytkownicy, którzy nadużywają systemu zwrotów, trollując sprzedawców i/lub kupujących poprzez ciągłe nieakceptowanie lub odrzucanie wymian, mogą ponieść konsekwencje."
+    }
+  }
+}

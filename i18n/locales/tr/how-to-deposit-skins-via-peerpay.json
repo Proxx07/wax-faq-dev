@@ -1,0 +1,18 @@
+{
+  "how-to-deposit-skins-via-peerpay": {
+    "title": "WaxPeer Pay aracılığıyla skinler nasıl yatırılır",
+    "content": {
+      "p1": "Siteye ilk girdiğinizde büyük ihtimalle bu ekranla karşılaşacaksınız ve satış yapamayacaksınız:",
+      "p2": "Skininizi satmak için öncelikle eklentimizi kurmalı ve ayarlamalısınız (durum 'Steam'e giriş yaptığınızdan emin olun' diyorsa, bu tarayıcınızda steamcommunity.com ve steampowered.com'a giriş yapmanız gerektiği anlamına gelir).",
+      "p3": "Her şeyi ayarlayıp satmaya hazır olduğunuzda sayfanız şu şekilde görünecektir:",
+      "p4": "Ardından, 'Ayarlar' bölümünde Steam API'nizi ve Takas bağlantınızı (Trade link) ayarlamalı ve kaydetmelisiniz. API anahtarının takas oluşturmak için kullanılamayacağını ve sitemizde ayarlanan Steam API'nizi HER ZAMAN güncel tutmanız gerektiğini unutmayın. Birisi eşyanızı satın aldığında orada da bildirim almak için Discord ve/veya Telegram'ınızı da bağlayabilirsiniz.",
+      "p5": "Daha sonra eşyalarınızın görünmesini sağlamak için envanterinizi yenilemelisiniz. Takas edilebilir ve uygun olan skinleriniz o zaman gösterilecektir.",
+      "p6": "Eşyaya tıkladığınızda kendi fiyatınızı belirleyebilirsiniz.",
+      "p7": "Kendi fiyatınızı belirleyebilirsiniz, ancak isterseniz anında yöntemini de seçebilirsiniz. Anında yöntemi, en yüksek alış emriyle eşleşen daha düşük bir fiyat verecek, böylece eşyanızı anında satacaktır. Söz konusu alış emrinin sahibi çevrimiçi değilse etkinleşmeyeceğini unutmayın.",
+      "p8": "Bu noktadan itibaren bir alıcı bekleyeceksiniz. Bu, siteye doğrudan bir para yatırma işlemi değildir, daha çok skin(ler)iniz için bir satıştır, ancak aldığınız para siteye yatırılır. Birisi skin(ler)inizi satın aldığında sitede ve eğer bağladıysanız Discord ve Telegram'da bilgilendirileceksiniz.",
+      "p9": "Skininiz satın alındığında, eklentimiz (veya uygulamanız, hangisini kullandığınıza bağlı olarak - her ikisi de çalışır) sizin için takası oluşturacak ve sizin sadece Steam Guard aracılığıyla onaylamanız gerekecektir. Çift takas olmadığından ve doğru takası onayladığınızdan emin olun.",
+      "p10": "Ek olarak, tüccar adının yanındaki bu küçük sembol, para yatırdığınız tüccarın (sitenin) tarafımızca doğrulandığı anlamına gelir.",
+      "p11": "Eşya alıcıya başarıyla teslim edildiğinde, para yatırdığınız sitedeki jetonlarınızı/paranızı 5 dakika içinde alacaksınız (nadir durumlarda kısa gecikmeler yaşanabilir). İyi şanslar!"
+    }
+  }
+}
