@@ -30,7 +30,7 @@ const copyHandler = async () => {
   <div class="faq-page">
     <Button
       class="hide-up-tablet mb-1"
-      label="More answers"
+      :label="t('more_answers')"
       :icon-left="arrowLeft"
       severity="tertiary"
       size="s"
