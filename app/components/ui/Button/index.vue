@@ -154,7 +154,7 @@ const iconSize = computed(() => {
 
   &.ghost {
     --bg: #{mix-color-transparent()};
-    --hover-bg: #{mix-color-contrast(var(--bg))};;
+    --hover-bg: #{mix-color-contrast(var(--bg))};
     --color: var(--severity-color);
     --hover-color: var(--severity-color);
   }

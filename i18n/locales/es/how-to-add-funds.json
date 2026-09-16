@@ -1,9 +1,9 @@
 {
   "how-to-add-funds": {
-    "title": "¿Cómo añadir fondos en el sitio web?",
+    "title": "¿Cómo añadir fondos en el sitio?",
     "content": {
-      "p1": "Para añadir fondos, presiona el signo '+' junto a tu saldo y elige el método que más te convenga, luego completa los espacios en blanco con la información requerida.",
-      "p2": "Si estás haciendo un depósito mediante criptomonedas, como Ethereum, debes copiar la dirección que se te proporciona y enviar el dinero a esa dirección. Esa dirección es tu dirección de depósito personal para WaxPeer."
+      "p1": "Para añadir fondos a tu saldo, haz clic en el botón de saldo junto a tu perfil y, en la ventana emergente, haz clic en el botón 'Depositar' (Deposit).",
+      "p2": "En la ventana modal que aparece, selecciona tu método de pago preferido y sigue las instrucciones adicionales."
     }
   }
 }

@@ -3,12 +3,13 @@ import WLogo from '~~/public/logo/logo.svg?raw';
 import { cross } from '@/assets/icons/actions';
 import { arrowLeft } from '@/assets/icons/arrows';
 import { support } from '@/assets/icons/features';
-import { burgerMenu } from '@/assets/icons/general';
+import { burgerMenu, loader } from '@/assets/icons/general';
 import { Button, VIcon } from '@/components/ui';
 import { useDrawerStore } from '@/store/drawerStore';
 
 const { t } = useI18n();
 const drawerStore = useDrawerStore();
+const { $chat } = useNuxtApp();
 </script>
 
 <template>
@@ -47,7 +48,7 @@ const drawerStore = useDrawerStore();
         </Button>
 
         <Button
-          :icon-left="support"
+          :icon-left="$chat.isInitializing ? loader : support"
           variant="text"
           severity="tertiary"
           :label="t('contact_support')"
@@ -55,6 +56,7 @@ const drawerStore = useDrawerStore();
           no-hover-bg
           padding="1.2rem 1.6rem 1.1rem"
           class="hide-down-tablet"
+          @click="$chat.open"
         />
 
         <Button

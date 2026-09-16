@@ -1,9 +1,9 @@
 {
   "how-to-add-funds": {
-    "title": "Comment ajouter des fonds sur le site web ?",
+    "title": "Comment ajouter des fonds sur le site ?",
     "content": {
-      "p1": "Pour ajouter des fonds, appuyez sur le signe « + » à côté de votre solde et choisissez la méthode qui vous convient, puis remplissez les champs vides avec les informations requises.",
-      "p2": "Si vous effectuez un dépôt via des crypto-monnaies, telles que l'Ethereum, vous devez copier l'adresse qui vous est donnée et envoyer l'argent à cette adresse. Cette adresse est votre adresse de dépôt personnelle pour WaxPeer."
+      "p1": "Pour ajouter des fonds à votre solde, cliquez sur le bouton de solde à côté de votre profil, et dans la fenêtre contextuelle, cliquez sur le bouton « Dépôt » (Deposit).",
+      "p2": "Dans la fenêtre modale qui apparaît, sélectionnez votre mode de paiement préféré et suivez les instructions supplémentaires."
     }
   }
 }

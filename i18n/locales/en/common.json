@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "How to deposit skins via Waxpeer Pay"
   },
 
+  "theme": {
+    "system": "System mode",
+    "blue": "Blue mode",
+    "dark": "Dark mode",
+    "light": "Light mode"
+  },
+
   "toast": {
     "error": "Error",
     "attention": "Attention",

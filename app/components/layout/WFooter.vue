@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import type { Ref } from 'vue';
 import { support } from '@/assets/icons/features';
+import { loader } from '@/assets/icons/general';
 import { LangSwitcher, ThemeSwitcher } from '@/components/globalSelects';
 import { Button, Drawer } from '@/components/ui';
 import { useResponsive } from '@/composables/UI';
 import { FOOTER_NAVIGATION_ITEMS, FOOTER_SOCIAL_LINKS } from '@/composables/useAsideNavigation';
 import { useDrawerStore } from '@/store/drawerStore';
 
+const { $chat } = useNuxtApp();
 const { isMax } = useResponsive();
 const { y } = useWindowScroll();
 const isFooterVisible = ref(false);
@@ -35,12 +37,13 @@ defineExpose<{
   <footer>
     <div class="left-part">
       <Button
-        :icon-left="support"
+        :icon-left="$chat.isInitializing ? loader : support"
         size="s"
         label="Support"
         severity="tertiary"
         variant="text"
         no-hover-bg
+        @click="$chat.open"
       />
 
       <nav>

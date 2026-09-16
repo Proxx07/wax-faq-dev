@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "Як внести скіни через Waxpeer Pay"
   },
 
+  "theme": {
+    "system": "Системна тема",
+    "blue": "Синя тема",
+    "dark": "Темна тема",
+    "light": "Світла тема"
+  },
+
   "toast": {
     "error": "Помилка",
     "attention": "Увага",

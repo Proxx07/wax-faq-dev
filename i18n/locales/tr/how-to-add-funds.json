@@ -1,9 +1,9 @@
 {
   "how-to-add-funds": {
-    "title": "Web sitesinde nasıl para eklenir?",
+    "title": "Sitede nasıl para eklenir?",
     "content": {
-      "p1": "Para eklemek için bakiyenizin yanındaki '+' işaretine basın ve size uygun yöntemi seçin, ardından boşlukları gerekli bilgilerle doldurun.",
-      "p2": "Ethereum gibi kripto para birimleri aracılığıyla para yatırıyorsanız, size verilen adresi kopyalamalı ve parayı o adrese göndermelisiniz. Oradaki adres, WaxPeer için kişisel para yatırma adresinizdir."
+      "p1": "Bakiyenize para eklemek için profilinizin yanındaki bakiye düğmesine tıklayın ve açılır pencerede 'Para Yatır' (Deposit) düğmesine tıklayın.",
+      "p2": "Görünen pencerede tercih ettiğiniz ödeme yöntemini seçin ve sonraki talimatları izleyin."
     }
   }
 }

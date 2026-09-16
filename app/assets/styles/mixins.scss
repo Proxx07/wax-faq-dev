@@ -1,10 +1,12 @@
 @use "sass:list";
-@function mix-color-transparent($color: currentColor, $percent: 0.13) {
-  @return color-mix(in srgb, #{$color} #{$percent * 100%}, transparent);
+@function mix-color-transparent($color: currentColor, $p: 0.13) {
+  $percent: $p * 100%;
+  @return color-mix(in srgb, $color $percent, transparent);
 }
 
-@function mix-color-contrast($color: currentColor, $percent: 0.8) {
-  @return color-mix(in srgb, #{$color} #{$percent * 100%}, var(--surface));
+@function mix-color-contrast($color: currentColor, $p: 0.8) {
+  $percent: $p * 100%;
+  @return color-mix(in srgb, $color $percent, var(--surface));
 }
 
 @mixin transition($props, $timing: var(--fast-timing)) {
@@ -14,7 +16,6 @@
   }
   transition: $value;
 }
-
 
 /* ================= Media queries mixin ====================== */
 $small:     420px;

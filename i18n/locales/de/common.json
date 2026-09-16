@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "Wie man Skins über Waxpeer Pay einzahlt"
   },
 
+  "theme": {
+    "system": "System-Design",
+    "blue": "Blaues Design",
+    "dark": "Dunkles Design",
+    "light": "Helles Design"
+  },
+
   "toast": {
     "error": "Fehler",
     "attention": "Achtung",

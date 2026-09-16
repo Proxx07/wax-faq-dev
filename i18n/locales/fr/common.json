@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "Comment déposer des skins via Waxpeer Pay"
   },
 
+  "theme": {
+    "system": "Thème système",
+    "blue": "Thème bleu",
+    "dark": "Thème sombre",
+    "light": "Thème clair"
+  },
+
   "toast": {
     "error": "Erreur",
     "attention": "Attention",

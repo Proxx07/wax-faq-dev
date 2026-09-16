@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "如何通过Waxpeer Pay存入饰品"
   },
 
+  "theme": {
+    "system": "系统主题",
+    "blue": "蓝色主题",
+    "dark": "深色主题",
+    "light": "浅色主题"
+  },
+
   "toast": {
     "error": "错误",
     "attention": "注意",

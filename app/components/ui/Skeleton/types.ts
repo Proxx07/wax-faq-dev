@@ -6,5 +6,5 @@ export interface SkeletonProps {
   height?: `${number}${CSSWidthUnit}` | 'fit-content'
   size?: `${number}${SkeletonSizeUnit}`
   round?: boolean
-  skin?: number
+  skin?: number | 'wax-logo'
 }

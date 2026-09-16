@@ -1,9 +1,9 @@
 {
   "how-to-add-funds": {
-    "title": "How to add funds on the website?",
+    "title": "How to add funds on the site?",
     "content": {
-      "p1": "To add funds, press the ‘+’ sign next to your balance and choose the method that fits you, then fill the empty spaces with what is required.",
-      "p2": "If you are making a deposit via crypto-currencies, such as Ethereum, you should copy the address you are given and send the money to that address. The address there is your personal deposit address for WaxPeer."
+      "p1": "To add funds to your balance, click the balance button next to your profile, and in the pop-up window, click the 'Deposit' button.",
+      "p2": "In the modal that appears, select your preferred payment method and follow the further instructions."
     }
   }
 }

@@ -2,8 +2,8 @@
   "how-to-add-funds": {
     "title": "Wie füge ich Geld auf der Website hinzu?",
     "content": {
-      "p1": "Um Geld hinzuzufügen, klicken Sie auf das „+“-Zeichen neben Ihrem Guthaben, wählen Sie die für Sie passende Methode und füllen Sie dann die leeren Felder mit den erforderlichen Angaben aus.",
-      "p2": "Wenn Sie eine Einzahlung über Kryptowährungen wie Ethereum vornehmen, sollten Sie die angegebene Adresse kopieren und das Geld an diese Adresse senden. Diese Adresse ist Ihre persönliche Einzahlungsadresse für WaxPeer."
+      "p1": "Um Ihrem Guthaben Geld hinzuzufügen, klicken Sie auf die Guthaben-Schaltfläche neben Ihrem Profil und im Pop-up-Fenster auf die Schaltfläche 'Einzahlen' (Deposit).",
+      "p2": "Wählen Sie in dem erscheinenden modalen Fenster Ihre bevorzugte Zahlungsmethode aus und befolgen Sie die weiteren Anweisungen."
     }
   }
 }

@@ -13,6 +13,7 @@ definePageMeta({
     },
   },
 });
+
 await useModuleI18n('all');
 const searchStore = useSearchStore();
 </script>
@@ -22,7 +23,6 @@ const searchStore = useSearchStore();
     <h1 v-if="searchStore.foundCount">
       {{ searchStore.foundCount }} search results
     </h1>
-
     <div v-if="searchStore.foundCount" class="list">
       <Button
         v-for="page in searchStore.filterBySearch"

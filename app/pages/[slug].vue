@@ -5,7 +5,7 @@ import { arrowLeft } from '@/assets/icons/arrows';
 import { FeedBackForm, NotFound } from '@/components/content';
 import { Button, TagRenderer, VIcon } from '@/components/ui';
 import { useModuleI18n } from '@/composables/useModuleI18n';
-import { usePage } from '@/composables/usePage';
+import { usePage, usePageImagesObserver } from '@/composables/usePage';
 
 const $router = useRouter();
 const { $toast } = useNuxtApp();
@@ -17,6 +17,7 @@ await useModuleI18n(slug);
 const { t } = useI18n();
 const { copy, copied } = useClipboard();
 const { getPageContent } = usePage();
+const { imagesContainer, imagePlaceHolder } = usePageImagesObserver();
 
 const PageContent = getPageContent(slug);
 
@@ -72,7 +73,11 @@ useSeoMeta({
 
     <NotFound v-if="!PageContent" :title="title" />
 
-    <div v-else-if="PageContent.length" class="page-content">
+    <div
+      v-else-if="PageContent.length"
+      ref="imagesContainer"
+      class="page-content"
+    >
       <TagRenderer
         v-for="(node, index) in PageContent"
         :key="index"
@@ -111,6 +116,7 @@ useSeoMeta({
   a {
     color: var(--primary);
   }
+
   p {
     margin: 0 0 3.2rem;
     @include media-max($tablet) {
@@ -129,13 +135,64 @@ useSeoMeta({
   }
 
   picture {
+    --padding: 2rem;
     display: inline-block;
     margin-bottom: 3.2rem;
-    padding: 2rem;
+    padding: var(--padding);
     background: var(--surface-low-container);
     border-radius: var(--radius-xl);
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 2/1;
+    &:has([width='300']) {
+      max-width: 34rem;
+      aspect-ratio: 3/4;
+      margin-right: 2rem;
+      @include media-min($tablet-s) {
+        + picture {
+          margin-right: 0;
+        }
+      }
+      @include media-max($tablet-s) {
+        display: block;
+        margin: 1rem auto;
+      }
+    }
+
+    &:has([loading="lazy"]) {
+      &:before {
+        --fade-color: #{mix-color-transparent(var(--on-surface), 0.1)};
+        content: '';
+        position: absolute;
+        inset: var(--padding);
+        color: var(--surface-high-container);
+        background-color: var(--surface-high-container);
+        background-image: repeating-linear-gradient(-45deg, transparent 0 35%, var(--fade-color) 50%, transparent 65% 100%);
+        background-size: 200% 100%;
+        animation: shimmer 2s infinite linear;
+        font-size: 0;
+        -webkit-mask-image: v-bind(imagePlaceHolder);
+        mask-image: v-bind(imagePlaceHolder);
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        mask-position: center;
+      }
+    }
+    :deep(img) {
+      opacity: 1;
+      width: 100%;
+      @include transition(opacity);
+      &[loading="lazy"] {
+        opacity: 0;
+        max-height: 20rem;
+      }
+    }
     @include media-max($tablet) {
-      padding: 0.6rem;
+      --padding: 0.6rem;
       margin-bottom: 2rem;
     }
   }

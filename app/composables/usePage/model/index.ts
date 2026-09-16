@@ -36,8 +36,10 @@ export const howItWorks: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-does-it-works/image-1.jpg',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-does-it-works/image-1.jpg',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -70,8 +72,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-1.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-1.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -87,8 +91,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-2.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-2.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -99,8 +105,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-3.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-3.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -116,8 +124,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-4.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-4.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -133,8 +143,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-5.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-5.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -150,8 +162,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-6.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-6.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -167,8 +181,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-7.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-7.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -184,8 +200,10 @@ export const howToSell: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: '/images/how-to-sell/image-8.png',
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-8.png',
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -218,8 +236,10 @@ export const howToBuy: PageContentElement[] = arrayFromNum(11).flatMap(num => ([
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-buy/image-${num}.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-buy/image-${num}.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -251,8 +271,10 @@ export const feesDeposit: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-deposit/image-1.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-deposit/image-1.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -263,8 +285,10 @@ export const feesDeposit: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-deposit/image-2.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-deposit/image-2.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -275,8 +299,10 @@ export const feesDeposit: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-deposit/image-3.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-deposit/image-3.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -295,8 +321,10 @@ export const feesWithdraw: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-withdraw/image-1.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-withdraw/image-1.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -307,8 +335,10 @@ export const feesWithdraw: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-withdraw/image-2.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-withdraw/image-2.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -319,18 +349,20 @@ export const feesWithdraw: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/fees-withdraw/image-3.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/fees-withdraw/image-3.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
   },
 ];
 
-export const howToAddFunds: PageContentElement[] = arrayFromNum(2).flatMap(num => ([
+export const howToAddFunds: PageContentElement[] = [
   {
     tag: 'p',
-    text: `how-to-add-funds.content.p${num}`,
+    text: `how-to-add-funds.content.p1`,
     localize: true,
   },
 
@@ -340,13 +372,49 @@ export const howToAddFunds: PageContentElement[] = arrayFromNum(2).flatMap(num =
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-add-funds/image-${num}.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-add-funds/image-1.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
   },
-]));
+  {
+    tag: 'p',
+    text: `how-to-add-funds.content.p2`,
+    localize: true,
+  },
+
+  {
+    tag: 'picture',
+    child: [
+      {
+        tag: 'img',
+        props: {
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-add-funds/image-2.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
+        },
+      },
+    ],
+  },
+  {
+    tag: 'picture',
+    child: [
+      {
+        tag: 'img',
+        props: {
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-add-funds/image-3.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
+        },
+      },
+    ],
+  },
+];
 
 export const sellerDoesntSentItem: PageContentElement[] = [
   {
@@ -368,8 +436,10 @@ export const contactSupport: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/contact-support/image-1.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/contact-support/image-1.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -380,8 +450,10 @@ export const contactSupport: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/contact-support/image-2.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/contact-support/image-2.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -401,8 +473,10 @@ export const historyAccount: PageContentElement[] = arrayFromNum(2).flatMap(num 
       {
         tag: 'img',
         props: {
-          src: `/images/history-account/image-${num}.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/history-account/image-${num}.jpg`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -429,8 +503,10 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-1.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-1.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -446,8 +522,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-2.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-2.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
+          'width': '300',
         },
       },
     ],
@@ -463,8 +542,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-3.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-3.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
+          'width': '300',
         },
       },
     ],
@@ -485,9 +567,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-4.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-4.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -498,9 +582,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-5.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-5.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -516,9 +602,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-6.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-6.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -529,9 +617,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-7.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-7.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -557,9 +647,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-8.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-8.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -570,9 +662,11 @@ export const peerDesktopApp: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/peer-desktop-app/image-9.png`,
-          alt: 'Image',
-          width: '300',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/peer-desktop-app/image-9.png`,
+          'alt': 'Image',
+          'width': '300',
+          'loading': 'lazy',
         },
       },
     ],
@@ -591,8 +685,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-1.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-1.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -608,8 +704,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-2.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-2.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -625,8 +723,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-3.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-3.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -642,8 +742,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-4.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-4.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -654,8 +756,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-5.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-5.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -671,8 +775,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-6.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-6.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -683,8 +789,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-7.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-7.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -700,8 +808,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-8.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'alt': 'Image',
+          'loading': 'lazy',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-8.png`,
         },
       },
     ],
@@ -717,8 +827,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-9.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-9.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],
@@ -744,8 +856,10 @@ export const howDepositSkins: PageContentElement[] = [
       {
         tag: 'img',
         props: {
-          src: `/images/how-to-deposit-skins-via-peerpay/image-10.png`,
-          alt: 'Image',
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-10.png`,
+          'alt': 'Image',
+          'loading': 'lazy',
         },
       },
     ],

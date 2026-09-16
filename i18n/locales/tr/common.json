@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "Waxpeer Pay aracılığıyla skinler nasıl yatırılır"
   },
 
+  "theme": {
+    "system": "Sistem teması",
+    "blue": "Mavi tema",
+    "dark": "Koyu tema",
+    "light": "Açık tema"
+  },
+
   "toast": {
     "error": "Hata",
     "attention": "Dikkat",

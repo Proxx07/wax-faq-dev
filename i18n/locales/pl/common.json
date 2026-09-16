@@ -61,6 +61,13 @@
     "depositSkinsWaxpeerPay": "Jak zdeponować skiny przez Waxpeer Pay"
   },
 
+  "theme": {
+    "system": "Motyw systemowy",
+    "blue": "Motyw niebieski",
+    "dark": "Motyw ciemny",
+    "light": "Motyw jasny"
+  },
+
   "toast": {
     "error": "Błąd",
     "attention": "Uwaga",

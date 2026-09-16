@@ -2,8 +2,8 @@
   "how-to-add-funds": {
     "title": "Jak dodać środki na stronie?",
     "content": {
-      "p1": "Aby dodać środki, naciśnij znak „+” obok swojego salda, wybierz odpowiednią metodę, a następnie wypełnij puste pola wymaganymi informacjami.",
-      "p2": "Jeśli dokonujesz wpłaty za pomocą kryptowalut, takich jak Ethereum, powinieneś skopiować podany adres i wysłać na niego pieniądze. Ten adres to Twój osobisty adres wpłaty dla WaxPeer."
+      "p1": "Aby dodać środki do swojego salda, kliknij przycisk salda obok swojego profilu, a w wyskakującym oknie kliknij przycisk „Wpłać” (Deposit).",
+      "p2": "W oknie modalnym, które się pojawi, wybierz preferowaną metodę płatności i postępuj zgodnie z dalszymi instrukcjami."
     }
   }
 }

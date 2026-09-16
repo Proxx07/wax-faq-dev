@@ -3,7 +3,6 @@ import { chevronRight } from '@/assets/icons/arrows';
 import { w } from '@/assets/icons/logos';
 import { Button, DropDown, Modal, RadioButton, VIcon } from '@/components/ui';
 import { type ThemeModes, useTheme } from '@/composables/UI';
-import { capitalizeFirstLetter } from '@/utils';
 
 const { variant = 'dropdown' } = defineProps<{
   variant?: 'dropdown' | 'modal'
@@ -53,11 +52,11 @@ const isModalOpened = ref(false);
           label="dropdownValue"
           @click="toggleDropDown"
         >
-          {{ selected ? `${capitalizeFirstLetter(selected)} mode` : 'Select theme' }}
+          {{ selected ? t(`theme.${selected}`) : 'Select theme' }}
         </Button>
       </template>
       <template #itemInner="{ item }">
-        {{ capitalizeFirstLetter(item) }} mode
+        {{ t(`theme.${item}`) }}
       </template>
     </DropDown>
     <template v-if="variant === 'modal'">
@@ -75,7 +74,7 @@ const isModalOpened = ref(false);
           </span>
           <div class="flex items-center ml-auto">
             <span class="font-16-n capitalize-first-letter">
-              {{ currentTheme }}
+              {{ t(`theme.${currentTheme}`) }}
             </span>
             <VIcon :icon="chevronRight" />
           </div>
@@ -90,7 +89,7 @@ const isModalOpened = ref(false);
               :key="theme"
               :model-value="currentTheme"
               :value="theme"
-              :label="capitalizeFirstLetter(theme)"
+              :label="t(`theme.${theme}`)"
               fluid
               class="radio-button-wrapper"
               @click="() => {
@@ -100,7 +99,13 @@ const isModalOpened = ref(false);
             >
               <template #append-top>
                 <div class="theme-square" :style="{ background: SQUARE_COLOR[theme] }">
-                  <div class="icon-wrapper mb-auto" :style="{ background: LOGO_COLOR[theme], color: theme === 'light' ? 'black' : 'white' }">
+                  <div
+                    class="icon-wrapper mb-auto"
+                    :style="{
+                      background: LOGO_COLOR[theme],
+                      color: theme === 'light' ? 'black' : 'white',
+                    }"
+                  >
                     <VIcon :icon="w" :size="24" />
                   </div>
 
@@ -124,6 +129,11 @@ const isModalOpened = ref(false);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+  @include media-max($small) {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 .icon-wrapper {
   padding: .8rem;
