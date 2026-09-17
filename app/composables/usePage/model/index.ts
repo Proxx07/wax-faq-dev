@@ -73,7 +73,21 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-1.png',
+          'data-src': '/images/how-to-sell/image-1.jpg',
+          'alt': 'Image',
+          'loading': 'lazy',
+        },
+      },
+    ],
+  },
+  {
+    tag: 'picture',
+    child: [
+      {
+        tag: 'img',
+        props: {
+          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+          'data-src': '/images/how-to-sell/image-2.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -92,21 +106,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-2.png',
-          'alt': 'Image',
-          'loading': 'lazy',
-        },
-      },
-    ],
-  },
-  {
-    tag: 'picture',
-    child: [
-      {
-        tag: 'img',
-        props: {
-          'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-3.png',
+          'data-src': '/images/how-to-sell/image-3.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -125,7 +125,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-4.png',
+          'data-src': '/images/how-to-sell/image-4.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -144,7 +144,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-5.png',
+          'data-src': '/images/how-to-sell/image-5.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -163,7 +163,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-6.png',
+          'data-src': '/images/how-to-sell/image-6.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -182,7 +182,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-7.png',
+          'data-src': '/images/how-to-sell/image-7.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -201,7 +201,7 @@ export const howToSell: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': '/images/how-to-sell/image-8.png',
+          'data-src': '/images/how-to-sell/image-8.jpg',
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -237,7 +237,7 @@ export const howToBuy: PageContentElement[] = arrayFromNum(11).flatMap(num => ([
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': `/images/how-to-buy/image-${num}.png`,
+          'data-src': `/images/how-to-buy/image-${num}.jpg`,
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -249,6 +249,22 @@ export const howToBuy: PageContentElement[] = arrayFromNum(11).flatMap(num => ([
     text: `how-to-buy.content.p${num}`,
     localize: true,
   },
+  ...(num === 11
+    ? [{
+      tag: 'picture',
+      child: [
+        {
+          tag: 'img',
+          props: {
+            'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
+            'data-src': `/images/how-to-buy/image-12.jpg`,
+            'alt': 'Image',
+            'loading': 'lazy',
+          },
+        },
+      ],
+    }]
+    : []),
 ]));
 
 export const feesSell: PageContentElement[] = [

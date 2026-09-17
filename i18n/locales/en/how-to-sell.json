@@ -2,15 +2,15 @@
   "how-to-sell": {
     "title": "How to sell on WaxPeer",
     "content": {
-      "p1": "Selling is easy, yet there are a few things that must be set in order to be able to sell. Firstly, you must save your trade link and your Steam API key in ‘Steam Account’ section of your WaxPeer user profile.",
-      "p2": "After completing the profile settings and starting sales, you need to go to the ‘Sell items‘ section. If you already have the ‘Waxpeer Extension‘ installed, then make sure that you are in the ‘Online‘ status. If everything is successful, then in this case you will see ‘Sales available‘ on the left side of the page. If you do not have an extension, you must download either our extension or application, so that we can automate the trades.",
-      "p3": "Once either extension or application is ready to be used, it will look like one of the pictures shown. (If your extension has the status ‘Please log in to Steam’, this means you must be logged in to Steam on both steamcommunity.com and steampowered.com on your browser) and once your ‘P2P Status’ is online (green), you can begin selling by choosing a skin, putting a price for it and listing it.",
+      "p1": "Selling is easy, but it requires configuring a few settings. You need to save your trade link in the \"Steam trade link\" section of your WaxPeer profile.",
+      "p2": "After completing your profile setup, you need to go to the \"Sell items\" section. If you already have the WaxPeer extension installed, make sure your status is \"Online\". If you don't have the extension, a window will appear on the page where you can download it, or you can download our app so we can automate trades.",
+      "p3": "Once the extension or app is ready, it will look like the image. (If the extension status says \"Please log in to Steam\", it means you need to authorize on steamcommunity.com and steampowered.com in your browser). When your \"P2P Status\" goes online (turns green), you can start selling: select a skin, set its price, and list it on the marketplace.",
       "p4": "Now you can select the items you want to sell.",
-      "p5": "While putting the price for your listing, you can use the upper buttons to easily put a good price that suits you.",
-      "p6": "All your items for sale will be located in the 'Sell offers' section. In this section, you can monitor the status of your offer, change its price, or delete the offer.",
-      "p7": "Once someone decides to purchase one of your listed items, you will receive a notification on-site. If you wish to, you can as well connect your Discord or/and Telegram through your account settings to WaxPeer in order to also get notified there apart from website itself.",
-      "p8": "You are required to confirm the trade that was sent by us via your account once someone purchases your item on sale. The confirmation appears on Steam mobile app, ‘Confirmations’ section. Once you confirm it, the item is sent. As soon as the buyer accepts the trade offer with the item, your WaxPeer account gets credited.",
-      "p9": "Keep in mind that you can only sell items that are tradeable."
+      "p5": "When setting a price for an item, you can use the slider in the dropdown window to quickly set a suitable and profitable price for each individual item.",
+      "p6": "All your items listed for sale will be located in the \"My Shop\" section. Here you can track the status of your offers, change their price, or remove them.",
+      "p7": "When someone decides to buy one of your items, you will receive a notification on the website. If you wish, you can link your Discord and/or Telegram in your WaxPeer account settings to receive notifications in these messengers in addition to the website.",
+      "p8": "After someone buys your item, you will need to confirm the trade sent by us through your account. The confirmation will appear in the Steam mobile app under the \"Confirmations\" section. Once you confirm it, the item will be sent. As soon as the buyer accepts the trade offer containing the item, the funds will be credited to your WaxPeer balance.",
+      "p9": "Please note that you can only sell items that are tradeable (without a trade ban)."
     }
   }
 }

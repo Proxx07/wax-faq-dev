@@ -2,15 +2,15 @@
   "how-to-sell": {
     "title": "Cómo vender en WaxPeer",
     "content": {
-      "p1": "Vender es fácil, sin embargo, hay algunas cosas que deben configurarse para poder vender. En primer lugar, debes guardar tu enlace de intercambio y tu clave de la API de Steam en la sección 'Cuenta de Steam' de tu perfil de usuario de WaxPeer.",
-      "p2": "Después de completar la configuración del perfil y comenzar las ventas, debes ir a la sección 'Vender artículos' (Sell items). Si ya tienes instalada la 'Extensión de Waxpeer' (Waxpeer Extension), asegúrate de estar en el estado 'En línea' (Online). Si todo es correcto, verás 'Ventas disponibles' (Sales available) en el lado izquierdo de la página. Si no tienes la extensión, debes descargar nuestra extensión o aplicación para que podamos automatizar los intercambios.",
-      "p3": "Una vez que la extensión o la aplicación esté lista para usarse, se verá como en una de las imágenes mostradas. (Si tu extensión tiene el estado 'Inicia sesión en Steam' (Please log in to Steam), esto significa que debes iniciar sesión en Steam tanto en steamcommunity.com como en steampowered.com en tu navegador). Y una vez que tu 'Estado P2P' (P2P Status) esté en línea (verde), puedes comenzar a vender eligiendo un skin, poniéndole un precio y publicándolo.",
+      "p1": "Vender es fácil, pero requiere configurar algunos ajustes. Debes guardar tu enlace de intercambio en la sección \"Steam trade link\" de tu perfil de WaxPeer.",
+      "p2": "Después de completar la configuración de tu perfil, debes ir a la sección \"Sell items\". Si ya tienes la extensión de WaxPeer instalada, asegúrate de que tu estado sea \"Online\". Si no tienes la extensión, aparecerá una ventana en la página donde podrás descargarla, o puedes descargar nuestra aplicación para que podamos automatizar los intercambios.",
+      "p3": "Una vez que la extensión o aplicación esté lista, se verá como en la imagen. (Si el estado de la extensión dice \"Please log in to Steam\", significa que necesitas autorizar en steamcommunity.com y steampowered.com en tu navegador). Cuando tu \"P2P Status\" esté en línea (se ponga verde), puedes empezar a vender: selecciona un skin, establece su precio y publícalo en el mercado.",
       "p4": "Ahora puedes seleccionar los artículos que deseas vender.",
-      "p5": "Al poner el precio de tu publicación, puedes usar los botones superiores para establecer fácilmente un buen precio que te convenga.",
-      "p6": "Todos tus artículos a la venta se ubicarán en la sección 'Ofertas de venta' (Sell offers). En esta sección, puedes monitorear el estado de tu oferta, cambiar su precio o eliminar la oferta.",
-      "p7": "Una vez que alguien decida comprar uno de tus artículos publicados, recibirás una notificación en el sitio. Si lo deseas, también puedes conectar tu Discord o Telegram (o ambos) a través de la configuración de tu cuenta a WaxPeer para recibir notificaciones allí también, además del propio sitio web.",
-      "p8": "Debes confirmar el intercambio que te enviamos a través de tu cuenta una vez que alguien compre tu artículo en venta. La confirmación aparece en la aplicación móvil de Steam, sección 'Confirmaciones' (Confirmations). Una vez que lo confirmes, el artículo se envía. Tan pronto como el comprador acepte la oferta de intercambio con el artículo, se acreditará tu cuenta de WaxPeer.",
-      "p9": "Ten en cuenta que solo puedes vender artículos que sean intercambiables."
+      "p5": "Al establecer un precio para un artículo, puedes usar el control deslizante en la ventana desplegable para establecer rápidamente un precio adecuado y rentable para cada artículo individual.",
+      "p6": "Todos tus artículos puestos a la venta se encontrarán en la sección \"My Shop\". Aquí puedes rastrear el estado de tus ofertas, cambiar su precio o eliminarlas.",
+      "p7": "Cuando alguien decida comprar uno de tus artículos, recibirás una notificación en el sitio web. Si lo deseas, puedes vincular tu Discord y/o Telegram en la configuración de tu cuenta de WaxPeer para recibir notificaciones en estos mensajeros además del sitio web.",
+      "p8": "Después de que alguien compre tu artículo, deberás confirmar el intercambio enviado por nosotros a través de tu cuenta. La confirmación aparecerá en la aplicación móvil de Steam en la sección \"Confirmations\". Una vez que lo confirmes, el artículo será enviado. Tan pronto como el comprador acepte la oferta de intercambio que contiene el artículo, los fondos se acreditarán en tu saldo de WaxPeer.",
+      "p9": "Ten en cuenta que solo puedes vender artículos que sean intercambiables (sin bloqueo de intercambio / trade ban)."
     }
   }
 }
