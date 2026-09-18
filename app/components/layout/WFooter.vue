@@ -3,9 +3,13 @@ import type { Ref } from 'vue';
 import { support } from '@/assets/icons/features';
 import { loader } from '@/assets/icons/general';
 import { LangSwitcher, ThemeSwitcher } from '@/components/globalSelects';
-import { Button, Drawer } from '@/components/ui';
+import { Button, Drawer, VIcon } from '@/components/ui';
 import { useResponsive } from '@/composables/UI';
-import { FOOTER_NAVIGATION_ITEMS, FOOTER_SOCIAL_LINKS } from '@/composables/useAsideNavigation';
+import {
+  FOOTER_NAVIGATION_ITEMS,
+  FOOTER_SOCIAL_LINKS,
+  MOBILE_APPLICATION_LINKS,
+} from '@/composables/useAsideNavigation';
 import { useDrawerStore } from '@/store/drawerStore';
 
 const { $chat } = useNuxtApp();
@@ -39,7 +43,7 @@ defineExpose<{
       <Button
         :icon-left="$chat.isInitializing ? loader : support"
         size="s"
-        label="Support"
+        :label="t('support')"
         severity="tertiary"
         variant="text"
         no-hover-bg
@@ -120,6 +124,36 @@ defineExpose<{
             <LangSwitcher variant="modal" />
             <ThemeSwitcher variant="modal" />
           </div>
+          <br>
+          <div class="flex-col gap-16">
+            <div class="color-on-surface-tertiary uppercase">
+              {{ t('mobile-app') }}
+            </div>
+
+            <a
+              v-for="(item, index) in MOBILE_APPLICATION_LINKS"
+              :key="item.name"
+              :href="item.link"
+              target="_blank"
+              rel="nofollow"
+              class="mobile-app-link"
+            >
+              <VIcon
+                :icon="item.icon"
+                span-bg="outline"
+                :no-fill="index === 1"
+                class="icon"
+                :size="25"
+              />
+
+              <span class="details">
+                <span class="color-on-surface-secondary">
+                  {{ t(item.title) }}
+                </span>
+                {{ item.name }}
+              </span>
+            </a>
+          </div>
         </nav>
         <template #footer>
           <nav>
@@ -174,10 +208,32 @@ nav {
     padding: 0;
   }
 }
-
+.gap-16 {
+  gap: 1.6rem;
+}
 .right-part {
   margin-left: auto;
   display: flex;
   align-items: center;
+}
+
+.mobile-app-link {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: .8px;
+  .icon {
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+  }
 }
 </style>

@@ -2,17 +2,9 @@
   "how-to-deposit-skins-via-peerpay": {
     "title": "Jak zdeponować skiny przez WaxPeer Pay",
     "content": {
-      "p1": "Kiedy po raz pierwszy wejdziesz na stronę, najprawdopodobniej zobaczysz ten ekran i nie będziesz mógł sprzedawać:",
-      "p2": "Aby sprzedać swojego skina, w pierwszej kolejności musisz zainstalować i skonfigurować nasze rozszerzenie (jeśli status mówi „upewnij się, że jesteś zalogowany do Steam”, oznacza to, że powinieneś zalogować się na steamcommunity.com i steampowered.com w swojej przeglądarce).",
-      "p3": "Gdy wszystko ustawisz i będziesz gotowy do sprzedaży, Twoja strona będzie wyglądać tak:",
-      "p4": "Następnie powinieneś ustawić swoje Steam API i Trade link w sekcji „Ustawienia” i zapisać. Zauważ, że klucz API nie może być użyty do tworzenia wymian i ZAWSZE powinieneś dbać o to, aby Twoje Steam API ustawione na naszej stronie było aktualne. Możesz również podłączyć swojego Discorda i/lub Telegram, aby również tam otrzymywać powiadomienia, gdy ktoś kupi Twój przedmiot.",
-      "p5": "Następnie, aby Twoje przedmioty się pojawiły, powinieneś odświeżyć swój ekwipunek. Zostaną wtedy wyświetlone Twoje skiny, które można wymieniać i które się kwalifikują.",
-      "p6": "Po kliknięciu na przedmiot możesz ustawić własną cenę.",
-      "p7": "Możesz ustawić własną cenę, ale jeśli chcesz, możesz również wybrać metodę natychmiastową. Metoda natychmiastowa zapewni Ci niższą cenę, która odpowiada najwyższemu zleceniu kupna, dzięki czemu sprzedasz swój przedmiot natychmiast. Zauważ, że jeśli właściciel tego zlecenia kupna nie jest online, nie zostanie ono aktywowane.",
-      "p8": "Od tego momentu będziesz czekać na kupującego. To nie jest bezpośrednia wpłata na stronę, to raczej sprzedaż Twojego skina (skinów), ale pieniądze, które otrzymujesz, są deponowane na stronie. Gdy ktoś kupi Twojego skina (skiny), zostaniesz powiadomiony na stronie, a jeśli je podłączyłeś, także na Discordzie i Telegramie.",
-      "p9": "Gdy Twój skin zostanie kupiony, nasze rozszerzenie (lub aplikacja, w zależności od tego, z czego korzystasz - obie działają) utworzy dla Ciebie wymianę i będziesz musiał jedynie potwierdzić ją przez Steam Guard. Upewnij się, że nie ma zduplikowanych wymian i że potwierdzasz właściwą wymianę.",
-      "p10": "Dodatkowo ten mały symbol obok nazwy sprzedawcy oznacza, że sprzedawca (strona), na którą dokonujesz wpłaty, jest przez nas zweryfikowany.",
-      "p11": "Po pomyślnym dostarczeniu przedmiotu do kupującego otrzymasz swoje monety/pieniądze na stronie, na której dokonujesz wpłaty, w ciągu 5 minut (w rzadkich przypadkach mogą wystąpić niewielkie opóźnienia). Powodzenia!"
+      "p1": "Kiedy po raz pierwszy odwiedzisz stronę, najprawdopodobniej zobaczysz ten ekran i nie będziesz mógł sprzedawać. Będziesz musiał podać swój Trade link (link do wymiany) i go zapisać.",
+      "p2": "Gdy wszystko zostanie skonfigurowane i będziesz gotowy do sprzedaży, Twoja strona będzie wyglądać tak:",
+      "p3": "Po kliknięciu na przedmiot, zostanie on przeniesiony do sąsiedniego okna. Stamtąd możesz sfinalizować sprzedaż, klikając przycisk."
     }
   }
 }

@@ -44,12 +44,6 @@ export const howItWorks: PageContentElement[] = [
       },
     ],
   },
-
-  {
-    tag: 'p',
-    text: 'how-does-it-work.content.p2',
-    localize: true,
-  },
 ];
 
 export const p2pSystemWork: PageContentElement[] = [
@@ -702,7 +696,7 @@ export const howDepositSkins: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-1.png`,
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-1.jpg`,
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -721,7 +715,7 @@ export const howDepositSkins: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-2.png`,
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-2.jpg`,
           'alt': 'Image',
           'loading': 'lazy',
         },
@@ -740,13 +734,14 @@ export const howDepositSkins: PageContentElement[] = [
         tag: 'img',
         props: {
           'src': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-3.png`,
+          'data-src': `/images/how-to-deposit-skins-via-peerpay/image-3.jpg`,
           'alt': 'Image',
           'loading': 'lazy',
         },
       },
     ],
   },
+  /*
   {
     tag: 'p',
     text: 'how-to-deposit-skins-via-peerpay.content.p4',
@@ -885,4 +880,5 @@ export const howDepositSkins: PageContentElement[] = [
     text: 'how-to-deposit-skins-via-peerpay.content.p11',
     localize: true,
   },
+  */
 ];

@@ -1,5 +1,5 @@
 import type { IAsideNavigationItem } from '../types';
-import { discord, instagram, telegram, x } from '@/assets/icons/logos';
+import { apple, discord, googlePlay, instagram, telegram, x } from '@/assets/icons/logos';
 
 export const ASIDE_NAVIGATION_ITEMS: IAsideNavigationItem[] = [
   {
@@ -28,6 +28,7 @@ export const ASIDE_NAVIGATION_ITEMS: IAsideNavigationItem[] = [
         name: 'aside.howToBuy',
         link: '/how-to-buy',
       },
+      /*
       {
         name: 'aside.tradeLock',
         link: '/trade-lock',
@@ -44,6 +45,7 @@ export const ASIDE_NAVIGATION_ITEMS: IAsideNavigationItem[] = [
         name: 'aside.holdBalance',
         link: '/hold-balance',
       },
+      */
     ],
   },
   {
@@ -70,10 +72,10 @@ export const ASIDE_NAVIGATION_ITEMS: IAsideNavigationItem[] = [
         name: 'aside.addFunds',
         link: '/how-to-add-funds',
       },
-      {
+      /* {
         name: 'aside.referralProgram',
         link: '/referal-programm',
-      },
+      }, */
       {
         name: 'aside.sellerNotSending',
         link: '/seller-does-not-send-the-item',
@@ -125,4 +127,25 @@ export const FOOTER_SOCIAL_LINKS: Array<{ icon: string, link: string }> = [
   { icon: x, link: 'https://x.com/waxpeer' },
   { icon: instagram, link: 'https://www.instagram.com/waxpeer_com' },
   { icon: telegram, link: 'https://t.me/waxpeer' },
+];
+
+export const MOBILE_APPLICATION_LINKS: Array<{
+  title: string
+  name: string
+  icon: string
+  link: string
+}> = [
+  {
+    title: 'download-on',
+    name: 'App store',
+    icon: apple,
+    link: 'https://apps.apple.com/us/app/waxpeer/id1534497199',
+  },
+
+  {
+    title: 'get-it-on',
+    name: 'Google Play',
+    icon: googlePlay,
+    link: 'https://play.google.com/store/apps/details?id=com.waxpeerapp.waxpeerapp',
+  },
 ];

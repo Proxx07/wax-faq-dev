@@ -2,17 +2,9 @@
   "how-to-deposit-skins-via-peerpay": {
     "title": "Wie man Skins über WaxPeer Pay einzahlt",
     "content": {
-      "p1": "Wenn Sie zum ersten Mal auf die Seite kommen, sehen Sie höchstwahrscheinlich diesen Bildschirm und können nicht verkaufen:",
-      "p2": "Um Ihren Skin zu verkaufen, sollten Sie zunächst unsere Erweiterung installieren und einrichten (wenn der Status besagt: „Stellen Sie sicher, dass Sie bei Steam angemeldet sind“, bedeutet dies, dass Sie sich in Ihrem Browser bei steamcommunity.com und steampowered.com anmelden sollten).",
-      "p3": "Sobald Sie alles eingestellt haben und bereit zum Verkauf sind, wird Ihre Seite so aussehen:",
-      "p4": "Als nächstes sollten Sie Ihre Steam-API und Ihren Trade-Link im Bereich „Einstellungen“ festlegen und speichern. Beachten Sie, dass der API-Schlüssel nicht zum Erstellen von Trades verwendet werden kann und Sie Ihre Steam-API auf unserer Seite IMMER auf dem neuesten Stand halten sollten. Sie können auch Ihr Discord und/oder Telegram verbinden, um auch dort benachrichtigt zu werden, wenn jemand Ihren Artikel kauft.",
-      "p5": "Damit Ihre Artikel angezeigt werden, sollten Sie anschließend Ihr Inventar aktualisieren. Ihre Skins, die handelbar und berechtigt sind, werden dann angezeigt.",
-      "p6": "Sobald Sie auf den Artikel klicken, können Sie Ihren eigenen Preis festlegen.",
-      "p7": "Sie können Ihren eigenen Preis festlegen, aber wenn Sie möchten, können Sie auch die Sofortmethode wählen. Die Sofortmethode gibt Ihnen einen niedrigeren Preis, der dem höchsten Kaufauftrag entspricht, sodass Ihr Artikel sofort verkauft wird. Beachten Sie, dass er nicht aktiviert wird, wenn der Inhaber dieses Kaufauftrags nicht online ist.",
-      "p8": "Von diesem Punkt an warten Sie auf einen Käufer. Dies ist keine direkte Einzahlung auf die Seite, sondern eher ein Verkauf für Ihre(n) Skin(s), aber das Geld, das Sie erhalten, wird auf die Seite eingezahlt. Sobald jemand Ihre(n) Skin(s) kauft, werden Sie auf der Seite benachrichtigt, und wenn Sie diese verbunden haben, auch auf Discord und Telegram.",
-      "p9": "Sobald Ihr Skin gekauft wurde, erstellt unsere Erweiterung (oder Anwendung, je nachdem, welche Sie verwenden - beides funktioniert) den Trade für Sie und Sie müssen ihn nur noch über Steam Guard bestätigen. Stellen Sie sicher, dass es keine doppelten Trades gibt und Sie den richtigen Trade bestätigen.",
-      "p10": "Darüber hinaus bedeutet dieses kleine Symbol neben dem Namen des Händlers, dass der Händler (die Seite), bei dem Sie eine Einzahlung vornehmen, von uns verifiziert ist.",
-      "p11": "Sobald der Artikel erfolgreich an den Käufer geliefert wurde, erhalten Sie Ihre Münzen/Geld auf der Seite, auf die Sie einzahlen, innerhalb von 5 Minuten (in seltenen Fällen kann es zu kurzen Verzögerungen kommen). Viel Glück!"
+      "p1": "Wenn Sie die Seite zum ersten Mal besuchen, werden Sie höchstwahrscheinlich diesen Bildschirm sehen und nicht verkaufen können. Sie müssen Ihren Trade-Link angeben und speichern.",
+      "p2": "Sobald alles eingerichtet ist und Sie bereit zum Verkauf sind, wird Ihre Seite so aussehen:",
+      "p3": "Nachdem Sie auf einen Artikel geklickt haben, wird dieser in das benachbarte Fenster verschoben. Von dort aus können Sie den Verkauf abschließen, indem Sie auf die Schaltfläche klicken."
     }
   }
 }

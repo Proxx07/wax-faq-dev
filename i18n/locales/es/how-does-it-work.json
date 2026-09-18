@@ -2,8 +2,7 @@
   "how-does-it-work": {
     "title": "Waxpeer – un mercado P2P de artículos virtuales",
     "content": {
-      "p1": "Vender es fácil, sin embargo, hay algunas cosas que deben configurarse para poder vender. En primer lugar, debes guardar tu enlace de intercambio y tu clave de la API de Steam en la sección 'Cuenta de Steam' de tu perfil de usuario de WaxPeer.",
-      "p2": "WaxPeer es un mercado mundial de CS:GO y DOTA 2 basado en el sistema Player-to-Player (P2P). Cualquiera puede depositar libremente en WaxPeer para comprar skins de otros jugadores y cualquiera puede vender sus skins a otros jugadores y retirar su dinero."
+      "p1": "WaxPeer es un mercado mundial de CS:GO y DOTA 2 basado en el sistema Player-to-Player (P2P). Cualquiera puede depositar libremente en WaxPeer para comprar skins de otros jugadores y cualquiera puede vender sus skins a otros jugadores y retirar su dinero."
     }
   }
 }

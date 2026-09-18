@@ -2,8 +2,7 @@
   "how-does-it-work": {
     "title": "Waxpeer – sanal eşyalar için bir P2P pazaryeri",
     "content": {
-      "p1": "Satış yapmak kolaydır, ancak satış yapabilmek için ayarlanması gereken birkaç şey vardır. İlk olarak, takas bağlantınızı ve Steam API anahtarınızı WaxPeer kullanıcı profilinizin 'Steam Hesabı' bölümüne kaydetmelisiniz.",
-      "p2": "WaxPeer, Oyuncudan Oyuncuya (P2P) sistemine bağlı dünya çapında bir CS:GO ve DOTA 2 pazaryeridir. Herkes diğer oyunculardan skin satın almak için WaxPeer'e serbestçe para yatırabilir ve herkes skinlerini diğer oyunculara satabilir ve paralarını çekebilir."
+      "p1": "WaxPeer, Oyuncudan Oyuncuya (P2P) sistemine bağlı dünya çapında bir CS:GO ve DOTA 2 pazaryeridir. Herkes diğer oyunculardan skin satın almak için WaxPeer'e serbestçe para yatırabilir ve herkes skinlerini diğer oyunculara satabilir ve paralarını çekebilir."
     }
   }
 }

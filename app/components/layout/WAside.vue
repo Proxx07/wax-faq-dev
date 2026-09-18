@@ -30,6 +30,17 @@ const slug = computed(() => $router.currentRoute.value.params?.slug || '');
         />
       </div>
     </Accordion>
+    <nav class="hidden">
+      <ul>
+        <template v-for="element in list" :key="element.groupName">
+          <li v-for="item in element.children" :key="item.link">
+            <NuxtLinkLocale :href="item.link">
+              {{ item.name }}
+            </NuxtLinkLocale>
+          </li>
+        </template>
+      </ul>
+    </nav>
   </aside>
 </template>
 
@@ -38,6 +49,10 @@ aside {
   transition: var(--transition-slow);
   @include media-max($tablet) {
     grid-column: span 2;
+  }
+
+  .hidden {
+    display: none;
   }
 }
 </style>
