@@ -14,10 +14,17 @@ export const hooks = {
   },
 
   'pages:extend': (pages: NuxtPage[]) => {
-    pages.push({
-      name: 'faq-slug',
-      path: '/faq/:slug',
-      file: resolve('../app/pages/[slug].vue'),
-    });
+    pages.push(
+      {
+        name: 'faq',
+        path: '/faq',
+        file: resolve('../app/pages/index.vue'),
+      },
+      {
+        name: 'faq-slug',
+        path: '/faq/:slug',
+        file: resolve('../app/pages/[slug].vue'),
+      },
+    );
   },
 };

@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import { Alert } from '@/components/ui';
+import { useModuleI18n } from '@/composables/useModuleI18n';
 import { useUserStore } from '@/store/userStore';
+
+await useModuleI18n('capital-for-faq');
 
 const { $toast } = useNuxtApp();
 const { t } = useI18n();
+
 useHead({
   link: [
     { rel: 'preload', as: 'font', type: 'font/woff2', href: '/faq-static/fonts/commissioner-latin.woff2', crossorigin: '' },
@@ -12,10 +16,7 @@ useHead({
 });
 
 const userStore = useUserStore();
-
-onMounted(() => {
-  userStore.getUser();
-});
+onMounted(userStore.getUser);
 </script>
 
 <template>
