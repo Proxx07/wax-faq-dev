@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { WAside, WFooter, WHeader, WSearchBlock } from '@/components/layout';
+import { useReqUrlCheck } from '@/composables/UI';
 import { useSearchStore } from '@/store/searchStore';
 
 const props = defineProps<{
@@ -10,15 +11,16 @@ const searchStore = useSearchStore();
 const $router = useRouter();
 const localePath = useLocalePath();
 const getRouteBaseName = useRouteBaseName();
-
+const { setPageLink } = useReqUrlCheck();
 const goToSearchPage = useDebounceFn(() => {
-  if (getRouteBaseName($router.currentRoute.value) === 'search') {
+  const routeBaseName = getRouteBaseName($router.currentRoute.value);
+  if (routeBaseName === 'search' || routeBaseName === 'faq-search') {
     if (searchStore.searchQuery) return;
-    $router.push({ path: localePath('/') });
+    $router.push({ path: localePath(setPageLink('/')) });
   }
   else {
     if (!searchStore.searchQuery) return;
-    $router.push({ path: localePath('/search') });
+    $router.push({ path: localePath(setPageLink('/search')) });
   }
 }, 300);
 </script>

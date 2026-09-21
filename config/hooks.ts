@@ -25,6 +25,11 @@ export const hooks = {
         path: '/faq/:slug',
         file: resolve('../app/pages/[slug].vue'),
       },
+      {
+        name: 'faq-search',
+        path: '/faq/search',
+        file: resolve('../app/pages/search.vue'),
+      },
     );
   },
 };

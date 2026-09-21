@@ -7,7 +7,7 @@ export const useReqUrlCheck = () => {
 
   const setPageLink = (link: string) => {
     const url = link.startsWith('/') ? link : `/${link}`;
-    return !isPageInWaxpeer.value ? `/faq${url}` : link;
+    return isPageInWaxpeer.value ? `/faq${url}` : link;
   };
 
   return {
