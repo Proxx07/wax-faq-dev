@@ -1,7 +1,7 @@
 import type { LanguagesTypes, LocaleItemType } from './types';
 
 export const DEFAULT_LANGUAGE: LanguagesTypes = 'en';
-export const COOKIE_LOCALE_KEY = 'lang';
+export const COOKIE_LOCALE_KEY = 'lang_faq';
 
 export const localeItems: LocaleItemType[] = [
 
