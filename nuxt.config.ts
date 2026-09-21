@@ -22,6 +22,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', sizes: '32x32', href: '/favicon.ico' },
       ],
     },
+    buildAssetsDir: '/_faq_nuxt/',
   },
 
   experimental: {
