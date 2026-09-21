@@ -15,11 +15,11 @@ export default defineNuxtConfig({
           rel: 'apple-touch-icon',
           sizes: '180x180',
           type: 'image/png',
-          href: '/faq/apple-touch-icon.png',
+          href: '/faq-static/apple-touch-icon.png',
         },
 
-        { rel: 'icon', type: 'image/x-icon', sizes: '16x16', href: '/faq/favicon.ico' },
-        { rel: 'icon', type: 'image/x-icon', sizes: '32x32', href: '/faq/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', sizes: '16x16', href: '/faq-static/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', sizes: '32x32', href: '/faq-static/favicon.ico' },
       ],
     },
     buildAssetsDir: '/_faq_nuxt/',
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   css: ['~/assets/styles/global.scss'],
 
   routeRules: {
-    '/fonts/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
+    // '/fonts/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
   },
 
   modules: [

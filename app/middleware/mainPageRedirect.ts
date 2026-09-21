@@ -1,10 +1,11 @@
-export default defineNuxtRouteMiddleware((to) => {
-  if (import.meta.server) return true;
-  // eslint-disable-next-line no-console
-  console.log('redirect-to', to);
-  const localePath = useLocalePath();
+import { useReqUrlCheck } from '@/composables/UI';
 
+export default defineNuxtRouteMiddleware(() => {
+  if (import.meta.server) return true;
+
+  const localePath = useLocalePath();
   if (window.innerWidth <= 1024) return true;
 
-  return navigateTo(localePath('/how-does-it-work'));
+  const { setPageLink } = useReqUrlCheck();
+  return navigateTo(localePath(setPageLink('/how-does-it-work')));
 });

@@ -4,20 +4,18 @@ import { useUserStore } from '@/store/userStore';
 
 const { $toast } = useNuxtApp();
 const { t } = useI18n();
-
 useHead({
   link: [
-    { rel: 'preload', as: 'font', type: 'font/woff2', href: '/faq/fonts/commissioner-latin.woff2', crossorigin: '' },
-    { rel: 'preload', as: 'font', type: 'font/woff2', href: '/faq/fonts/commissioner-cyrillic.woff2', crossorigin: '' },
+    { rel: 'preload', as: 'font', type: 'font/woff2', href: '/faq-static/fonts/commissioner-latin.woff2', crossorigin: '' },
+    { rel: 'preload', as: 'font', type: 'font/woff2', href: '/faq-static/fonts/commissioner-cyrillic.woff2', crossorigin: '' },
   ],
 });
 
 const userStore = useUserStore();
-// eslint-disable-next-line no-console
-console.log('isUser', userStore.isUser);
 
-// eslint-disable-next-line no-console
-console.log('userCookie', userStore.userCookie);
+onMounted(() => {
+  userStore.getUser();
+});
 </script>
 
 <template>
