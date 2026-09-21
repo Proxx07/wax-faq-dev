@@ -54,7 +54,7 @@ const model = computed({
   width: 100%;
   padding: 5.6rem 0 6.6rem;
   @include media-min($tablet) {
-    background: url('/images/search-block-bg.png') 50% 50% / cover no-repeat;
+    background: url('/faq/images/search-block-bg.png') 50% 50% / cover no-repeat;
   }
   @include media-max($tablet) {
     padding: 2.4rem 0 0;

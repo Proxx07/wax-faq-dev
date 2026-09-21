@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import WLogo from '~~/public/logo/logo.svg?raw';
+import WLogo from '~~/public/faq/logo/logo.svg?raw';
 import { cross } from '@/assets/icons/actions';
 import { arrowLeft } from '@/assets/icons/arrows';
 import { support } from '@/assets/icons/features';

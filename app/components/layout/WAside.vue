@@ -6,6 +6,9 @@ const $router = useRouter();
 
 const { list } = useAsideNavigation();
 const slug = computed(() => $router.currentRoute.value.params?.slug || '');
+const url = useRequestURL();
+// eslint-disable-next-line no-console
+console.log('req-url', url.href);
 </script>
 
 <template>
