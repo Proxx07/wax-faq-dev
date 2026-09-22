@@ -3,10 +3,10 @@ import { Alert } from '@/components/ui';
 import { useModuleI18n } from '@/composables/useModuleI18n';
 import { useUserStore } from '@/store/userStore';
 
-await useModuleI18n('capital-for-faq');
-
 const { $toast } = useNuxtApp();
 const { t } = useI18n();
+
+await useModuleI18n('capital-for-faq');
 
 useHead({
   link: [

@@ -1,11 +1,7 @@
-import { useReqUrlCheck } from '@/composables/UI';
-
 export default defineNuxtRouteMiddleware(() => {
   if (import.meta.server) return true;
-
-  const localePath = useLocalePath();
   if (window.innerWidth <= 1024) return true;
+  const localePath = useLocalePath();
 
-  const { setPageLink } = useReqUrlCheck();
-  return navigateTo(localePath(setPageLink('/how-does-it-work')));
+  return navigateTo(localePath('/how-does-it-work'));
 });

@@ -22,6 +22,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', sizes: '32x32', href: '/faq-static/favicon.ico' },
       ],
     },
+    baseURL: '/faq/',
     buildAssetsDir: '/_faq_nuxt/',
   },
 
@@ -34,10 +35,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/styles/global.scss'],
-
-  routeRules: {
-    // '/fonts/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
-  },
 
   modules: [
     '@vueuse/nuxt',

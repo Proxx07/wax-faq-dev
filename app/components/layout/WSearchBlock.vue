@@ -10,7 +10,7 @@ const emit = defineEmits<{
   (e: 'update:search', value: string): void
 }>();
 
-const { t } = useI18n();
+const { t } = useI18n({ useScope: 'global' });
 
 const model = computed({
   get() {

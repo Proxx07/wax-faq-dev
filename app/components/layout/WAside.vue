@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { Accordion, Button } from '@/components/ui';
-import { useReqUrlCheck } from '@/composables/UI';
 import { useAsideNavigation } from '@/composables/useAsideNavigation';
 
 const $router = useRouter();
 
 const { list } = useAsideNavigation();
 const slug = computed(() => $router.currentRoute.value.params?.slug || '');
-const { setPageLink } = useReqUrlCheck();
 </script>
 
 <template>
@@ -28,7 +26,7 @@ const { setPageLink } = useReqUrlCheck();
           hover-text-color="on-surface"
           padding="12px"
           :label="item.name"
-          :to="setPageLink(item.link)"
+          :to="item.link"
         />
       </div>
     </Accordion>
@@ -36,7 +34,7 @@ const { setPageLink } = useReqUrlCheck();
       <ul>
         <template v-for="element in list" :key="element.groupName">
           <li v-for="item in element.children" :key="item.link">
-            <NuxtLinkLocale :href="setPageLink(item.link)">
+            <NuxtLinkLocale :href="item.link">
               {{ item.name }}
             </NuxtLinkLocale>
           </li>

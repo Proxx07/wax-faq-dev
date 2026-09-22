@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { WAside, WFooter, WHeader, WSearchBlock } from '@/components/layout';
-import { useReqUrlCheck } from '@/composables/UI';
 import { useSearchStore } from '@/store/searchStore';
 
 const props = defineProps<{
@@ -11,27 +10,37 @@ const searchStore = useSearchStore();
 const $router = useRouter();
 const localePath = useLocalePath();
 const getRouteBaseName = useRouteBaseName();
-const { setPageLink } = useReqUrlCheck();
+
+const notMainPage = computed(() => {
+  return getRouteBaseName($router.currentRoute.value) !== 'index'
+    && getRouteBaseName($router.currentRoute.value) !== 'faq';
+});
+
+const notSearchPage = computed(() => {
+  return getRouteBaseName($router.currentRoute.value) !== 'search'
+    && getRouteBaseName($router.currentRoute.value) !== 'faq-search';
+});
+
 const goToSearchPage = useDebounceFn(() => {
   const routeBaseName = getRouteBaseName($router.currentRoute.value);
   if (routeBaseName === 'search' || routeBaseName === 'faq-search') {
     if (searchStore.searchQuery) return;
-    $router.push({ path: localePath(setPageLink('/')) });
+    $router.push({ path: localePath('/') });
   }
   else {
     if (!searchStore.searchQuery) return;
-    $router.push({ path: localePath(setPageLink('/search')) });
+    $router.push({ path: localePath('/search') });
   }
 }, 300);
 </script>
 
 <template>
-  <div class="wrapper" :class="[getRouteBaseName($router.currentRoute.value) !== 'index' && 'inner-page-wrapper']">
+  <div class="wrapper" :class="[notMainPage && 'inner-page-wrapper']">
     <WHeader />
 
     <WSearchBlock
       v-model:search="searchStore.searchQuery"
-      :class="[getRouteBaseName($router.currentRoute.value) !== 'index' && getRouteBaseName($router.currentRoute.value) !== 'search' && 'hide-down-tablet']"
+      :class="[(notMainPage && notSearchPage) && 'hide-down-tablet']"
       @update:search="goToSearchPage"
     />
 
@@ -40,7 +49,7 @@ const goToSearchPage = useDebounceFn(() => {
         <transition name="aside-animation">
           <WAside
             v-if="!props.hideSideBar"
-            :class="[getRouteBaseName($router.currentRoute.value) !== 'index' && 'hide-down-tablet']"
+            :class="[notMainPage && 'hide-down-tablet']"
           />
         </transition>
 
