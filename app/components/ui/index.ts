@@ -4,6 +4,9 @@ export type * from './Accordion/types';
 export { default as Alert } from './Alert/index.vue';
 
 export type * from './Alert/types';
+export { default as Avatar } from './Avatar/index.vue';
+
+export type * from './Avatar/types';
 export { default as Button } from './Button/index.vue';
 
 export type * from './Button/types';

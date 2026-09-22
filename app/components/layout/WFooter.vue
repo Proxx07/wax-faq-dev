@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { Ref } from 'vue';
 import { support } from '@/assets/icons/features';
-import { loader } from '@/assets/icons/general';
+import { loader, logOut } from '@/assets/icons/general';
 import { LangSwitcher, ThemeSwitcher } from '@/components/globalSelects';
-import { Button, Drawer, VIcon } from '@/components/ui';
+import { Avatar, Button, Drawer, VIcon } from '@/components/ui';
 import { useResponsive } from '@/composables/UI';
 import {
   FOOTER_NAVIGATION_ITEMS,
@@ -11,8 +11,10 @@ import {
   MOBILE_APPLICATION_LINKS,
 } from '@/composables/useAsideNavigation';
 import { useDrawerStore } from '@/store/drawerStore';
+import { useUserStore } from '@/store/userStore';
 
 const { $chat } = useNuxtApp();
+const userStore = useUserStore();
 const { isMax } = useResponsive();
 const { y } = useWindowScroll();
 const isFooterVisible = ref(false);
@@ -99,6 +101,22 @@ defineExpose<{
         offset-top="7rem"
         hide-header
       >
+        <div v-if="userStore.user" class="avatar-wrapper">
+          <Button
+            :icon-right="logOut"
+            fluid
+            severity="destructive"
+            variant="text"
+            padding="0"
+            @click="userStore.logOut"
+          >
+            <Avatar
+              :name="userStore.user.name"
+              :image="userStore.user.avatar"
+              :verified="userStore.user.email_verified"
+            />
+          </Button>
+        </div>
         <nav>
           <ul class="flex-col">
             <li v-for="item in FOOTER_NAVIGATION_ITEMS" :key="item.link">
@@ -191,7 +209,9 @@ footer {
   align-items: center;
   background: var(--outline);
 }
-
+.avatar-wrapper {
+  margin-bottom: 2rem;
+}
 .left-part {
   display: flex;
   align-items: center;
@@ -208,6 +228,7 @@ nav {
     padding: 0;
   }
 }
+
 .gap-16 {
   gap: 1.6rem;
 }

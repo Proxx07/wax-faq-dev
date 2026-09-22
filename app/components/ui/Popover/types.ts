@@ -9,6 +9,7 @@ export interface PopoverProps {
   bg?: TColors
   stayOnScroll?: boolean
   target?: MaybeComputedElementRef
+  minHeight?: number | string
 }
 
 export interface PopoverSlots {

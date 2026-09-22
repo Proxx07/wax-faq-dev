@@ -5,11 +5,16 @@ import { arrowLeft } from '@/assets/icons/arrows';
 import { support } from '@/assets/icons/features';
 import { burgerMenu, loader } from '@/assets/icons/general';
 import { Button, VIcon } from '@/components/ui';
+import { User } from '@/components/widgets';
+import { useResponsive } from '@/composables/UI';
 import { useDrawerStore } from '@/store/drawerStore';
+import { useUserStore } from '@/store/userStore';
 
 const { t } = useI18n();
 const drawerStore = useDrawerStore();
+const userStore = useUserStore();
 const { $chat } = useNuxtApp();
+const { isMin } = useResponsive();
 </script>
 
 <template>
@@ -57,6 +62,12 @@ const { $chat } = useNuxtApp();
           padding="1.2rem 1.6rem 1.1rem"
           class="hide-down-tablet"
           @click="$chat.open"
+        />
+
+        <User
+          v-if="isMin('tablet') && userStore.user"
+          :user="userStore.user"
+          @logout="userStore.logOut"
         />
 
         <Button

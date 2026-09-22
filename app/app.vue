@@ -16,7 +16,7 @@ useHead({
 });
 
 const userStore = useUserStore();
-onMounted(userStore.getUser);
+onMounted(userStore.fetchUser);
 </script>
 
 <template>

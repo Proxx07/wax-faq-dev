@@ -1,31 +1,12 @@
-export const useUserStore = () => {
-  const { $request } = useNuxtApp();
+import { useUser } from '@/composables/useUser';
 
-  const _userCookie = useCookie('_redis');
-
-  const _isCookieExist = computed(() => {
-    return !!_userCookie.value;
-  });
-
-  const user = shallowRef<any>();
-
-  const getUser = async () => {
-    if (!_isCookieExist.value) return;
-
-    const { data } = await $request<{ user: any }>('/api/user');
-    if (!data?.user) return;
-
-    // eslint-disable-next-line no-console
-    console.log(data);
-    user.value = data.user;
-  };
+export const useUserStore = defineStore('user', () => {
+  const { isUserFetching, user, fetchUser, logOut } = useUser();
 
   return {
-
-    _userCookie,
-    _isCookieExist,
-
     user,
-    getUser,
+    isUserFetching,
+    fetchUser,
+    logOut,
   };
-};
+});

@@ -7,6 +7,7 @@ const {
   bg = 'surface-high-container',
   disabled = false,
   stayOnScroll = false,
+  minHeight = '',
   target,
 } = defineProps<PopoverProps>();
 
@@ -27,6 +28,11 @@ const { left, top, bottom, update } = useElementBounding(target || popover);
 const widthVar = computed(() => {
   if (width == null) return 'max-content';
   return typeof width === 'number' ? `${width}px` : width;
+});
+
+const minHeightVar = computed(() => {
+  if (!minHeight) return '15rem';
+  return typeof minHeight === 'number' ? `${minHeight}px` : minHeight;
 });
 
 const updatePosition = () => {
@@ -102,6 +108,7 @@ useEventListener('keydown', (e) => {
               '--x': positions.x,
               '--y': positions.y,
               '--w': widthVar,
+              '--min-height': minHeightVar,
             }"
           >
             <slot :close="close" />
@@ -122,7 +129,7 @@ useEventListener('keydown', (e) => {
   top: var(--y);
   left: var(--x);
   width: var(--w);
-  min-height: 15rem;
+  min-height: var(--min-height);
   max-width: calc(100vw - 16px);
   max-height: calc(70vh - 16px);
   overflow-y: auto;
